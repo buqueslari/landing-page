@@ -25,7 +25,7 @@ export const metadata = {
     url: "https://laribuques.com.br/",
     images: [
       {
-        url: "/images/logo/logo.png",
+        url: "favicon.ico",
       },
     ],
   },
