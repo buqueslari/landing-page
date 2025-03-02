@@ -42,29 +42,14 @@ export default function ColorSelect5({ activeColor = "", setActiveColor }) {
     <div className="variant-picker-item">
       <div className="variant-picker-label mb_12">
         Colors:
-        <span className="text-title variant-picker-label-value value-currentColor">
-          {activeColor || activeColorDefault}
-        </span>
+        <span className="text-title variant-picker-label-value value-currentColor">{activeColor || activeColorDefault}</span>
       </div>
       <div className="variant-picker-values">
         {colorOptionsRounded.map((option) => (
           <React.Fragment key={option.id}>
             <input id={option.id} type="radio" name={option.name} readOnly />
-            <label
-              className={`style-image-rounded hover-tooltip tooltip-bot color-btn ${
-                activeColor == option.color ? "active" : ""
-              } `}
-              htmlFor={option.id}
-              onClick={() => handleSelectColor(option.color)}
-            >
-              <Image
-                className="ls-is-cached lazyloaded"
-                data-src={option.imgSrc}
-                alt={option.imgAlt}
-                src={option.imgSrc}
-                width={80}
-                height={80}
-              />
+            <label className={`style-image-rounded hover-tooltip tooltip-bot color-btn ${activeColor == option.color ? "active" : ""} `} htmlFor={option.id} onClick={() => handleSelectColor(option.color)}>
+              <Image className="ls-is-cached lazyloaded" data-src={option.images[0]} alt={option.imgAlt} src={option.images[0]} width={80} height={80} />
               <span className="tooltip">{option.value}</span>
             </label>
           </React.Fragment>

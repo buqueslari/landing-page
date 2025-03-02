@@ -35,14 +35,7 @@ export default function ShopCategories() {
             <SwiperSlide key={index}>
               <div className="collection-circle hover-img">
                 <Link href={`/shop-collection`} className="img-style">
-                  <Image
-                    className="lazyload"
-                    data-src={collection.imgSrc}
-                    alt={collection.alt}
-                    src={collection.imgSrc}
-                    width={363}
-                    height={363}
-                  />
+                  <Image className="lazyload" data-src={collection.imgSrc} alt={collection.alt} src={collection.imgSrc} width={363} height={363} />
                 </Link>
                 <div className="collection-content text-center">
                   <div>

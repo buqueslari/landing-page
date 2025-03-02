@@ -13,14 +13,7 @@ export default function BlogGrid() {
               {blogPosts6.map((blog, index) => (
                 <div className="wg-blog style-1 hover-image" key={index}>
                   <div className="image">
-                    <Image
-                      className="lazyload"
-                      data-src={blog.imgSrc}
-                      alt={blog.alt}
-                      src={blog.imgSrc}
-                      width={615}
-                      height={461}
-                    />
+                    <Image className="lazyload" data-src={blog.images[0]} alt={blog.alt} src={blog.images[0]} width={615} height={461} />
                   </div>
                   <div className="content">
                     <div className="meta">

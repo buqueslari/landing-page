@@ -9,9 +9,7 @@ export default function ShopGram4() {
     <section>
       <div className="heading-section text-center wow fadeInUp">
         <h3 className="heading">Shop Instagram</h3>
-        <p className="subheading text-secondary">
-          Elevate your wardrobe with fresh finds today!
-        </p>
+        <p className="subheading text-secondary">Elevate your wardrobe with fresh finds today!</p>
       </div>
 
       <Swiper
@@ -35,24 +33,11 @@ export default function ShopGram4() {
       >
         {product10.map((item, index) => (
           <SwiperSlide key={index}>
-            <div
-              className="gallery-item rounded-0 hover-overlay hover-img wow fadeInUp"
-              data-wow-delay={item.delay}
-            >
+            <div className="gallery-item rounded-0 hover-overlay hover-img wow fadeInUp" data-wow-delay={item.delay}>
               <div className="img-style">
-                <Image
-                  className="lazyload img-hover"
-                  data-src={item.imgSrc}
-                  alt={item.alt}
-                  src={item.imgSrc}
-                  width={480}
-                  height={480}
-                />
+                <Image className="lazyload img-hover" data-src={item.images[0]} alt={item.alt} src={item.images[0]} width={480} height={480} />
               </div>
-              <Link
-                href={`/product-detail/${item.id}`}
-                className="box-icon hover-tooltip"
-              >
+              <Link href={`/product/${item.id}`} className="box-icon hover-tooltip">
                 <span className="icon icon-eye"></span>
                 <span className="tooltip">View Product</span>
               </Link>

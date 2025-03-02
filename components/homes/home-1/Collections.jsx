@@ -11,9 +11,6 @@ export default function Collections() {
       <div className="container">
         <div className="heading-section-2 wow fadeInUp">
           <h3>Categorias que você pode gostar</h3>
-          <Link href={`/`} className="btn-line">
-            Ver Todas
-          </Link>
         </div>
         <div className="flat-collection-circle wow fadeInUp" data-wow-delay="0.1s">
           <Swiper
@@ -40,12 +37,12 @@ export default function Collections() {
             {collections.map((collection, index) => (
               <SwiperSlide key={index}>
                 <div className="collection-circle hover-img">
-                  <Link href={`/`} className="img-style">
+                  <Link href={collection.href} className="img-style">
                     <Image className="lazyload" data-src={collection.imgSrc} alt={collection.alt} src={collection.imgSrc} width={363} height={363} />
                   </Link>
                   <div className="collection-content text-center">
                     <div>
-                      <Link href={`/`} className="cls-title">
+                      <Link href={collection.href} className="cls-title">
                         <h6 className="text">{collection.title}</h6>
                         <i className="icon icon-arrowUpRight" />
                       </Link>

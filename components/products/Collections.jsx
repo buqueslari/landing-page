@@ -9,26 +9,14 @@ export default function Collections() {
         <div className="tf-grid-layout tf-col-2 lg-col-4">
           {/* item 1 */}
           {collections11.map((item, index) => (
-            <div
-              key={index}
-              className="collection-position-2 radius-lg style-3 hover-img"
-            >
+            <div key={index} className="collection-position-2 radius-lg style-3 hover-img">
               <a className="img-style">
-                <Image
-                  className="lazyload"
-                  data-src={item.imgSrc}
-                  alt={`banner-${item.text.toLowerCase()}`}
-                  src={item.imgSrc}
-                  width={450}
-                  height={600}
-                />
+                <Image className="lazyload" data-src={item.images[0]} alt={`banner-${item.text.toLowerCase()}`} src={item.images[0]} width={450} height={600} />
               </a>
               <div className="content">
                 <a href="#" className="cls-btn">
                   <h6 className="text">{item.text}</h6>
-                  <span className="count-item text-secondary">
-                    {item.count}
-                  </span>
+                  <span className="count-item text-secondary">{item.count}</span>
                   <i className="icon icon-arrowUpRight" />
                 </a>
               </div>

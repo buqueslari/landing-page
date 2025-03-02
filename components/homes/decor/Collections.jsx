@@ -11,9 +11,7 @@ export default function Collections() {
       <div className="container-full2">
         <div className="heading-section text-center wow fadeInUp">
           <h3 className="heading">Shop by Collections</h3>
-          <p className="subheading">
-            Browse our Top Trending: the hottest picks loved by all.
-          </p>
+          <p className="subheading">Browse our Top Trending: the hottest picks loved by all.</p>
         </div>
         <div className="flat-sw-navigation wow fadeInUp" data-wow-delay="0.1s">
           <Swiper
@@ -35,27 +33,15 @@ export default function Collections() {
               <SwiperSlide key={index}>
                 <div className="collection-position-2 style-7 hover-img">
                   <Link href={`/shop-collection`} className="img-style">
-                    <Image
-                      className="lazyload"
-                      data-src={collection.imgSrc}
-                      alt={`banner-cls-${index + 1}`}
-                      src={collection.imgSrc}
-                      width={657}
-                      height={875}
-                    />
+                    <Image className="lazyload" data-src={collection.imgSrc} alt={`banner-cls-${index + 1}`} src={collection.imgSrc} width={657} height={875} />
                   </Link>
                   <div className="content text-center">
                     <h4 className="title">
-                      <Link
-                        href={`/shop-collection`}
-                        className="link text-white"
-                      >
+                      <Link href={`/shop-collection`} className="link text-white">
                         {collection.title}
                       </Link>
                     </h4>
-                    <span className="text-title text-white">
-                      {collection.productCount}
-                    </span>
+                    <span className="text-title text-white">{collection.productCount}</span>
                   </div>
                 </div>
               </SwiperSlide>

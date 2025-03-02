@@ -5,53 +5,17 @@ import Sorting from "./Sorting";
 import Listview from "./Listview";
 import GridView from "./GridView";
 import { useEffect, useReducer, useState } from "react";
-import FilterModal from "./FilterModal";
 import { initialState, reducer } from "@/reducer/filterReducer";
 import { productMain } from "@/data/products";
 import FilterMeta from "./FilterMeta";
 
-export default function Products1({ parentClass = "flat-spacing" }) {
+export default function Products1({ parentClass = "flat-spacing", collection = "" }) {
   const [activeLayout, setActiveLayout] = useState(4);
   const [state, dispatch] = useReducer(reducer, initialState);
-  const {
-    price,
-    availability,
-    color,
-    size,
-    brands,
-
-    filtered,
-    sortingOption,
-    sorted,
-
-    activeFilterOnSale,
-    currentPage,
-    itemPerPage,
-  } = state;
+  const { sortingOption, sorted, currentPage, itemPerPage } = state;
 
   const allProps = {
     ...state,
-    setPrice: (value) => dispatch({ type: "SET_PRICE", payload: value }),
-
-    setColor: (value) => {
-      value == color ? dispatch({ type: "SET_COLOR", payload: "All" }) : dispatch({ type: "SET_COLOR", payload: value });
-    },
-    setSize: (value) => {
-      value == size ? dispatch({ type: "SET_SIZE", payload: "All" }) : dispatch({ type: "SET_SIZE", payload: value });
-    },
-    setAvailability: (value) => {
-      value == availability ? dispatch({ type: "SET_AVAILABILITY", payload: "All" }) : dispatch({ type: "SET_AVAILABILITY", payload: value });
-    },
-
-    setBrands: (newBrand) => {
-      const updated = [...brands].includes(newBrand) ? [...brands].filter((elm) => elm != newBrand) : [...brands, newBrand];
-      dispatch({ type: "SET_BRANDS", payload: updated });
-    },
-    removeBrand: (newBrand) => {
-      const updated = [...brands].filter((brand) => brand != newBrand);
-
-      dispatch({ type: "SET_BRANDS", payload: updated });
-    },
     setSortingOption: (value) => dispatch({ type: "SET_SORTING_OPTION", payload: value }),
     toggleFilterWithOnSale: () => dispatch({ type: "TOGGLE_FILTER_ON_SALE" }),
     setCurrentPage: (value) => dispatch({ type: "SET_CURRENT_PAGE", payload: value }),
@@ -64,80 +28,46 @@ export default function Products1({ parentClass = "flat-spacing" }) {
   };
 
   useEffect(() => {
-    let filteredArrays = [];
+    let filteredProducts = productMain;
 
-    if (brands.length) {
-      const filteredByBrands = [...productMain].filter((elm) => brands.every((el) => elm.filterBrands.includes(el)));
-      filteredArrays = [...filteredArrays, filteredByBrands];
-    }
-    if (availability !== "All") {
-      const filteredByavailability = [...productMain].filter((elm) => availability.value === elm.inStock);
-      filteredArrays = [...filteredArrays, filteredByavailability];
-    }
-    if (color !== "All") {
-      const filteredByColor = [...productMain].filter((elm) => elm.filterColor.includes(color.name));
-      filteredArrays = [...filteredArrays, filteredByColor];
-    }
-    if (size !== "All" && size !== "Free Size") {
-      const filteredBysize = [...productMain].filter((elm) => elm.filterSizes.includes(size));
-      filteredArrays = [...filteredArrays, filteredBysize];
-    }
-    if (activeFilterOnSale) {
-      const filteredByonSale = [...productMain].filter((elm) => elm.oldPrice);
-      filteredArrays = [...filteredArrays, filteredByonSale];
+    if (collection) {
+      const searchText = collection.toLowerCase();
+      filteredProducts = productMain.filter((product) => product.title.toLowerCase().includes(searchText) || product.description.toLowerCase().includes(searchText) || product.tabFilterOptions.some((option) => option.toLowerCase().includes(searchText)) || product.tabFilterOptions2.some((option) => option.toLowerCase().includes(searchText)));
     }
 
-    const filteredByPrice = [...productMain].filter((elm) => elm.price >= price[0] && elm.price <= price[1]);
-    filteredArrays = [...filteredArrays, filteredByPrice];
-
-    const commonItems = [...productMain].filter((item) => filteredArrays.every((array) => array.includes(item)));
-    dispatch({ type: "SET_FILTERED", payload: commonItems });
-  }, [price, availability, color, size, brands, activeFilterOnSale]);
-
-  useEffect(() => {
     if (sortingOption === "Preço Crescente") {
       dispatch({
         type: "SET_SORTED",
-        payload: [...filtered].sort((a, b) => a.price - b.price),
+        payload: [...filteredProducts].sort((a, b) => a.price - b.price),
       });
     } else if (sortingOption === "Preço Decrescente") {
       dispatch({
         type: "SET_SORTED",
-        payload: [...filtered].sort((a, b) => b.price - a.price),
+        payload: [...filteredProducts].sort((a, b) => b.price - a.price),
       });
     } else if (sortingOption === "Título Crescente") {
       dispatch({
         type: "SET_SORTED",
-        payload: [...filtered].sort((a, b) => a.title.localeCompare(b.title)),
+        payload: [...filteredProducts].sort((a, b) => a.title.localeCompare(b.title)),
       });
     } else if (sortingOption === "Título Decrescente") {
       dispatch({
         type: "SET_SORTED",
-        payload: [...filtered].sort((a, b) => b.title.localeCompare(a.title)),
+        payload: [...filteredProducts].sort((a, b) => b.title.localeCompare(a.title)),
       });
     } else {
-      dispatch({ type: "SET_SORTED", payload: filtered });
+      dispatch({ type: "SET_SORTED", payload: filteredProducts });
     }
 
     dispatch({ type: "SET_CURRENT_PAGE", payload: 1 });
-  }, [filtered, sortingOption]);
+  }, [sortingOption, collection]);
 
   return (
     <>
       <section className={parentClass}>
         <div className="container">
-          <div className="tf-shop-control">
-            <div className="tf-control-filter">
-              <a href="#filterShop" data-bs-toggle="offcanvas" aria-controls="filterShop" className="tf-btn-filter">
-                <span className="icon icon-filter" />
-                <span className="text">Filtros</span>
-              </a>
-              <div onClick={allProps.toggleFilterWithOnSale} className={`d-none d-lg-flex shop-sale-text ${activeFilterOnSale ? "active" : ""}`}>
-                <i className="icon icon-checkCircle" />
-                <p className="text-caption-1">Apenas itens de venda de loja</p>
-              </div>
-            </div>
-            <ul className="tf-control-layout">
+          <div className="tf-shop-control" style={{ justifyContent: "space-between", display: "flex" }}>
+            <ul className="tf-control-layout" style={{ width: "fit-content" }}>
               <LayoutHandler setActiveLayout={setActiveLayout} activeLayout={activeLayout} />
             </ul>
             <div className="tf-control-sorting">
@@ -160,8 +90,6 @@ export default function Products1({ parentClass = "flat-spacing" }) {
           </div>
         </div>
       </section>
-
-      <FilterModal allProps={allProps} />
     </>
   );
 }

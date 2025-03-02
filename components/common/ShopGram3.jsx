@@ -10,9 +10,7 @@ export default function ShopGram3({ parentClass = "" }) {
       <div className="container-full2">
         <div className="heading-section text-center">
           <h3 className="heading wow fadeInUp">Shop Instagram</h3>
-          <p className="subheading text-secondary wow fadeInUp">
-            Elevate your wardrobe with fresh finds today!
-          </p>
+          <p className="subheading text-secondary wow fadeInUp">Elevate your wardrobe with fresh finds today!</p>
         </div>
         <Swiper
           dir="ltr"
@@ -26,24 +24,11 @@ export default function ShopGram3({ parentClass = "" }) {
         >
           {products2.map((item, i) => (
             <SwiperSlide key={i}>
-              <div
-                className="gallery-item hover-overlay hover-img wow fadeInUp"
-                data-wow-delay={item.delay}
-              >
+              <div className="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay={item.delay}>
                 <div className="img-style">
-                  <Image
-                    className="lazyload img-hover"
-                    data-src={item.imgSrc}
-                    alt="image-gallery"
-                    src={item.imgSrc}
-                    width={640}
-                    height={640}
-                  />
+                  <Image className="lazyload img-hover" data-src={item.images[0]} alt="image-gallery" src={item.images[0]} width={640} height={640} />
                 </div>
-                <Link
-                  href={`/product-detail/${item.id}`}
-                  className="box-icon hover-tooltip"
-                >
+                <Link href={`/product/${item.id}`} className="box-icon hover-tooltip">
                   <span className="icon icon-eye" />
                   <span className="tooltip">View Product</span>
                 </Link>

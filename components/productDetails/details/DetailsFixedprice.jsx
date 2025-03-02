@@ -20,7 +20,7 @@ export default function DetailsFixedprice({ product = allProducts[0] }) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <Grid4 activeColor={activeColor} firstItem={product.imgSrc} setActiveColor={setActiveColor} />
+            <Grid4 activeColor={activeColor} firstItem={product.images[0]} setActiveColor={setActiveColor} />
           </div>
         </div>
         <div className="row">

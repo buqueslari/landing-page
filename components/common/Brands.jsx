@@ -30,12 +30,7 @@ export default function Brands({ parentClass = "flat-spacing-5 line-top" }) {
         {brands.map((brand) => (
           <SwiperSlide key={brand.id}>
             <a href="#" className="brand-item">
-              <Image
-                alt={brand.alt}
-                src={brand.imgSrc}
-                width={brand.width}
-                height={brand.height}
-              />
+              <Image alt={brand.alt} src={brand.images[0]} width={brand.width} height={brand.height} />
             </a>
           </SwiperSlide>
         ))}

@@ -10,9 +10,7 @@ export default function Blogs({ parentClass = "flat-spacing pt-0" }) {
       <div className="container">
         <div className="heading-section text-center">
           <h3 className="heading wow fadeInUp">News insight</h3>
-          <p className="subheading text-secondary wow fadeInUp">
-            Browse our Top Trending: the hottest picks loved by all.
-          </p>
+          <p className="subheading text-secondary wow fadeInUp">Browse our Top Trending: the hottest picks loved by all.</p>
         </div>
         <Swiper
           breakpoints={{
@@ -42,24 +40,12 @@ export default function Blogs({ parentClass = "flat-spacing pt-0" }) {
         >
           {blogPosts.map((post, index) => (
             <SwiperSlide key={index} className="swiper-slide">
-              <div
-                className="wg-blog style-1 hover-image wow fadeInUp"
-                data-wow-delay={post.delay}
-              >
+              <div className="wg-blog style-1 hover-image wow fadeInUp" data-wow-delay={post.delay}>
                 <div className="image">
-                  <Image
-                    className="lazyload"
-                    data-src={post.imgSrc}
-                    alt={post.alt}
-                    src={post.imgSrc}
-                    width={615}
-                    height={461}
-                  />
+                  <Image className="lazyload" data-src={post.images[0]} alt={post.alt} src={post.images[0]} width={615} height={461} />
                 </div>
                 <div className="content">
-                  <p className="text-btn-uppercase text-secondary-2">
-                    {post.date}
-                  </p>
+                  <p className="text-btn-uppercase text-secondary-2">{post.date}</p>
                   <div>
                     <h6 className="title fw-5">
                       <Link className="link" href={`/blog-detail/${post.id}`}>

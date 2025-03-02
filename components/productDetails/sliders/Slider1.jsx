@@ -6,11 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-export default function Slider1({ activeColor = "gray", setActiveColor = () => {}, firstItem, secondItem, slideItems = slides, thumbSlidePerView = 6, thumbSlidePerViewOnMobile = 6 }) {
-  const items = [...slideItems];
-  items[0].src = firstItem ?? items[0].src;
-  items[1].src = secondItem ?? items[0].src;
-
+export default function Slider1({ activeColor = "gray", setActiveColor = () => {}, items, slideItems = slides, thumbSlidePerView = 6, thumbSlidePerViewOnMobile = 6 }) {
   useEffect(() => {
     // Function to initialize Drift
     const imageZoom = () => {
@@ -134,7 +130,7 @@ export default function Slider1({ activeColor = "gray", setActiveColor = () => {
         {items.map((slide, index) => (
           <SwiperSlide className="swiper-slide stagger-item" data-color={slide.color} key={index}>
             <div className="item">
-              <Image className="lazyload" data-src={slide.src} alt={slide.alt} src={slide.src} width={slide.width} height={slide.height} />
+              <Image className="lazyload" data-src={slide} alt={slide} src={slide} width={40} height={70} />
             </div>
           </SwiperSlide>
         ))}
@@ -158,14 +154,14 @@ export default function Slider1({ activeColor = "gray", setActiveColor = () => {
         {items.map((slide, index) => (
           <SwiperSlide key={index} className="swiper-slide" data-color="gray">
             <a
-              href={slide.src}
+              href={slide}
               target="_blank"
               className="item"
               data-pswp-width={slide.width}
               data-pswp-height={slide.height}
               //   onClick={() => openLightbox(index)}
             >
-              <Image className="tf-image-zoom lazyload" data-zoom={slide.src} data-src={slide.src} alt="" src={slide.src} width={slide.width} height={slide.height} />
+              <Image className="tf-image-zoom lazyload" data-zoom={slide} data-src={slide} alt="" src={slide} width={800} height={800} />
             </a>
           </SwiperSlide>
         ))}

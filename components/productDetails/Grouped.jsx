@@ -33,13 +33,7 @@ export default function Grouped() {
 
   // Handler to toggle product selection by checkbox
   const handleCheckboxChange = (id) => {
-    setProducts((prevProducts) =>
-      prevProducts.map((product) =>
-        product.id === id
-          ? { ...product, selected: !product.selected }
-          : product
-      )
-    );
+    setProducts((prevProducts) => prevProducts.map((product) => (product.id === id ? { ...product, selected: !product.selected } : product)));
   };
 
   // Calculate the total price of selected products
@@ -52,34 +46,18 @@ export default function Grouped() {
   useEffect(() => {
     const total = products
       .filter((product) => product.selected && product.oldPrice) // Only include selected products
-      .reduce(
-        (total, product) => total + product.oldPrice * product.quantity,
-        0
-      );
+      .reduce((total, product) => total + product.oldPrice * product.quantity, 0);
     setTotalPriceOld(total);
   }, [products]);
 
   return (
-    <form
-      className="form-bundle-product type-product-grouped"
-      onSubmit={(e) => e.preventDefault()}
-    >
+    <form className="form-bundle-product type-product-grouped" onSubmit={(e) => e.preventDefault()}>
       {products.map((product) => (
         <div className="tf-bundle-product-item" key={product.id}>
-          <input
-            className="tf-check"
-            type="checkbox"
-            checked={product.selected}
-            onChange={() => handleCheckboxChange(product.id)}
-          />
+          <input className="tf-check" type="checkbox" checked={product.selected} onChange={() => handleCheckboxChange(product.id)} />
           <div className="tf-product-bundle-image">
             <a href="#">
-              <Image
-                alt={product.title}
-                src={product.imgSrc}
-                width={600}
-                height={800}
-              />
+              <Image alt={product.title} src={product.images[0]} width={600} height={800} />
             </a>
           </div>
           <div className="d-flex justify-content-between align-items-center flex-grow-1 gap-12 flex-wrap">
@@ -94,31 +72,16 @@ export default function Grouped() {
               </div>
               <div className="tf-product-info-price type-small">
                 <h5 className="price-on-sale">${product.price}</h5>
-                {product.oldPrice && (
-                  <div className="compare-at-price">${product.oldPrice}</div>
-                )}
-                {product.discount && (
-                  <div className="badges-on-sale">{product.discount}</div>
-                )}
+                {product.oldPrice && <div className="compare-at-price">${product.oldPrice}</div>}
+                {product.discount && <div className="badges-on-sale">{product.discount}</div>}
               </div>
             </div>
             <div className="wg-quantity">
-              <span
-                className="btn-quantity minus-btn"
-                onClick={() => handleQuantityChange(product.id, -1)}
-              >
+              <span className="btn-quantity minus-btn" onClick={() => handleQuantityChange(product.id, -1)}>
                 -
               </span>
-              <input
-                type="text"
-                name="number"
-                value={product.quantity}
-                readOnly
-              />
-              <span
-                className="btn-quantity plus-btn"
-                onClick={() => handleQuantityChange(product.id, 1)}
-              >
+              <input type="text" name="number" value={product.quantity} readOnly />
+              <span className="btn-quantity plus-btn" onClick={() => handleQuantityChange(product.id, 1)}>
                 +
               </span>
             </div>

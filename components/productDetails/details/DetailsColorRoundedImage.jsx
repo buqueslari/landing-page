@@ -23,7 +23,7 @@ export default function DetailsColorRoundedImage({ product }) {
             {/* Product default */}
             <div className="col-md-6">
               <div className="tf-product-media-wrap sticky-top">
-                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.imgSrc} slideItems={slides3} />
+                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.images[0]} slideItems={slides3} />
               </div>
             </div>
             {/* /Product default */}

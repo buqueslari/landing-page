@@ -33,14 +33,7 @@ export default function Collections() {
           <SwiperSlide key={index}>
             <div className="gallery-item rounded-0 hover-overlay hover-img">
               <div className="img-style">
-                <Image
-                  className="lazyload img-hover"
-                  data-src={item.imgSrc}
-                  alt={item.alt}
-                  src={item.imgSrc}
-                  width={708}
-                  height={709}
-                />
+                <Image className="lazyload img-hover" data-src={item.images[0]} alt={item.alt} src={item.images[0]} width={708} height={709} />
               </div>
               <div className="gallery-content">
                 <a href="#" className="cls-btn">

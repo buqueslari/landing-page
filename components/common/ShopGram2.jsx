@@ -9,9 +9,7 @@ export default function ShopGram() {
     <section>
       <div className="heading-section text-center wow fadeInUp">
         <h3 className="heading">Shop Instagram</h3>
-        <p className="subheading text-secondary">
-          Elevate your wardrobe with fresh finds today!
-        </p>
+        <p className="subheading text-secondary">Elevate your wardrobe with fresh finds today!</p>
       </div>
       <Swiper
         dir="ltr"
@@ -30,23 +28,11 @@ export default function ShopGram() {
       >
         {products2.map((product, i) => (
           <SwiperSlide key={i} className="swiper-slide">
-            <div
-              className="gallery-item rounded-0 hover-overlay hover-img wow fadeInUp"
-              data-wow-delay={product.delay}
-            >
+            <div className="gallery-item rounded-0 hover-overlay hover-img wow fadeInUp" data-wow-delay={product.delay}>
               <div className="img-style">
-                <Image
-                  className="lazyload img-hover"
-                  alt="image-gallery"
-                  src={product.imgSrc}
-                  width={640}
-                  height={640}
-                />
+                <Image className="lazyload img-hover" alt="image-gallery" src={product.images[0]} width={640} height={640} />
               </div>
-              <Link
-                href={`/product-detail/${product.id}`}
-                className="box-icon hover-tooltip"
-              >
+              <Link href={`/product/${product.id}`} className="box-icon hover-tooltip">
                 <span className="icon icon-eye" />
                 <span className="tooltip">View Product</span>
               </Link>

@@ -13,10 +13,7 @@ export default function RelatedBlogs() {
           <div className="col-12">
             <div className="heading-section text-center">
               <h3>Related Articles</h3>
-              <p className="body-text-1">
-                Discover the Hottest Fashion News and Trends Straight from the
-                Runway
-              </p>
+              <p className="body-text-1">Discover the Hottest Fashion News and Trends Straight from the Runway</p>
             </div>
             <Swiper
               className="swiper tf-sw-recent"
@@ -46,13 +43,7 @@ export default function RelatedBlogs() {
                 <SwiperSlide key={i} className="swiper-slide">
                   <div className="wg-blog style-1 hover-image">
                     <div className="image">
-                      <Image
-                        className="lazyload"
-                        alt=""
-                        src={post.imgSrc}
-                        width={615}
-                        height={461}
-                      />
+                      <Image className="lazyload" alt="" src={post.images[0]} width={615} height={461} />
                     </div>
                     <div className="content">
                       <div className="meta">
@@ -76,16 +67,11 @@ export default function RelatedBlogs() {
                       </div>
                       <div>
                         <h6 className="title fw-5">
-                          <Link
-                            className="link"
-                            href={`/blog-detail/${post.id}`}
-                          >
+                          <Link className="link" href={`/blog-detail/${post.id}`}>
                             {post.title}
                           </Link>
                         </h6>
-                        <div className="body-text">
-                          {post.description.split(" ").slice(0, 10).join(" ")}
-                        </div>
+                        <div className="body-text">{post.description.split(" ").slice(0, 10).join(" ")}</div>
                       </div>
                     </div>
                   </div>

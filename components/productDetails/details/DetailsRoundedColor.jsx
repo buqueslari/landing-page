@@ -22,7 +22,7 @@ export default function DetailsRoundedColor({ product }) {
             {/* Product default */}
             <div className="col-md-6">
               <div className="tf-product-media-wrap sticky-top">
-                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.imgSrc} />
+                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.images[0]} />
               </div>
             </div>
             {/* /Product default */}

@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import { slides } from "@/data/heroSlides";
 import Image from "next/image";
-import Link from "next/link";
 export default function Hero() {
   return (
     <section className="tf-slideshow slider-default slider-effect-fade">

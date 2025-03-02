@@ -41,7 +41,7 @@ export default function Categories({ parentClass = "flat-spacing pt-0" }) {
               <SwiperSlide key={index}>
                 <div className="collection-circle hover-img">
                   <Link href={`/shop-collection`} className="img-style">
-                    <Image className="lazyload" data-src={item.imgSrc} alt={item.alt} src={item.imgSrc} width={285} height={285} />
+                    <Image className="lazyload" data-src={item.images[0]} alt={item.alt} src={item.images[0]} width={285} height={285} />
                   </Link>
                   <div className="collection-content text-center">
                     <div>

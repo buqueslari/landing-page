@@ -227,7 +227,7 @@ export const otherShopMenus = [
 ];
 
 export const productLinks = [
-  { href: "/product-detail/1", name: "Product Default" },
+  { href: "/product/1", name: "Product Default" },
   { href: "/product-grid-1/1", name: "Product Grid1" },
   { href: "/product-grid-2/1", name: "Product Grid2" },
   { href: "/product-stacked/2", name: "Product stacked" },

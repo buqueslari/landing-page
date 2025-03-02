@@ -20,7 +20,7 @@ export default function Details6({ product = allProducts[0] }) {
             {/* Product default */}
             <div className="col-md-6">
               <div className="tf-product-media-wrap thumbs-bottom sticky-top">
-                <Slider3 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.imgSrc} />
+                <Slider3 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.images[0]} />
               </div>
             </div>
             {/* /Product default */}

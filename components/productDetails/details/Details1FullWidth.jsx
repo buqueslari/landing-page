@@ -18,7 +18,7 @@ export default function Details1FullWidth({ product }) {
         {/* Product default */}
         <div className="">
           <div className="tf-product-media-wrap sticky-top">
-            <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.imgSrc} />
+            <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.images[0]} />
           </div>
         </div>
         {/* /Product default */}

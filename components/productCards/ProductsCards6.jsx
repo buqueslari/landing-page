@@ -6,19 +6,19 @@ import CountdownTimer from "../common/Countdown";
 
 import { useContextElement } from "@/context/Context";
 export default function ProductsCards6({ product }) {
-  const [currentImage, setCurrentImage] = useState(product.imgSrc);
+  const [currentImage, setCurrentImage] = useState(product.images[0]);
 
   const { setQuickAddItem, addToWishlist, isAddedtoWishlist, addToCompareItem, isAddedtoCompareItem, setQuickViewItem, addProductToCart, isAddedToCartProducts } = useContextElement();
 
   useEffect(() => {
-    setCurrentImage(product.imgSrc);
+    setCurrentImage(product.images[0]);
   }, [product]);
   return (
     <div className="card-product style-list" data-availability="In stock" data-brand="gucci">
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product/${product.id}`} className="product-img">
           <Image className="lazyload img-product" src={currentImage} alt={product.title} width={600} height={800} />
-          <Image className="lazyload img-hover" src={product.imgHover} alt={product.title} width={600} height={800} />
+          <Image className="lazyload img-hover" src={product.images[0] ?? product.images[1]} alt={product.title} width={600} height={800} />
         </Link>
         {product.isOnSale && (
           <div className="on-sale-wrap">
@@ -27,7 +27,7 @@ export default function ProductsCards6({ product }) {
         )}
       </div>
       <div className="card-product-info">
-        <Link href={`/product-detail/${product.id}`} className="title link">
+        <Link href={`/product/${product.id}`} className="title link">
           {product.title}
         </Link>
         <span className="price current-price">
@@ -38,9 +38,9 @@ export default function ProductsCards6({ product }) {
           {/* {product.colors && (
             <ul className="list-color-product">
               {product.colors.map((color, index) => (
-                <li key={index} className={`list-color-item color-swatch ${currentImage == color.imgSrc ? "active" : ""} `} onMouseOver={() => setCurrentImage(color.imgSrc)}>
+                <li key={index} className={`list-color-item color-swatch ${currentImage == color.images[0] ? "active" : ""} `} onMouseOver={() => setCurrentImage(color.images[0])}>
                   <span className={`swatch-value ${color.bgColor}`} />
-                  <Image className="lazyload" src={color.imgSrc} alt="color variant" width={600} height={800} />
+                  <Image className="lazyload" src={color.images[0]} alt="color variant" width={600} height={800} />
                 </li>
               ))}
             </ul>

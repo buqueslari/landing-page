@@ -13,13 +13,7 @@ export default function BlogList() {
             {blogPosts6.slice(0, 5).map((post, i) => (
               <div key={i} className="wg-blog style-row hover-image mb_40">
                 <div className="image">
-                  <Image
-                    className="lazyload"
-                    alt=""
-                    src={post.imgSrc}
-                    width={600}
-                    height={399}
-                  />
+                  <Image className="lazyload" alt="" src={post.images[0]} width={600} height={399} />
                 </div>
                 <div className="content">
                   <div className="d-flex align-items-center justify-content-between flex-wrap gap-10">
@@ -49,10 +43,7 @@ export default function BlogList() {
                     </Link>
                   </h5>
                   <p>{post.description.split(" ").slice(0, 10).join(" ")}</p>
-                  <Link
-                    href={`/blog-detail/${post.id}`}
-                    className="link text-button bot-button"
-                  >
+                  <Link href={`/blog-detail/${post.id}`} className="link text-button bot-button">
                     Read More
                   </Link>
                 </div>

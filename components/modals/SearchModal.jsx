@@ -3,7 +3,11 @@ import React, { useState } from "react";
 
 import { productMain } from "@/data/products";
 import ProductCard1 from "../productCards/ProductCard1";
+import { useRouter } from "next/navigation";
+
 export default function SearchModal() {
+  const router = useRouter();
+
   const [loading, setLoading] = useState(false);
 
   const [loadedItems, setLoadedItems] = useState(productMain.slice(0, 8));
@@ -30,6 +34,15 @@ export default function SearchModal() {
       setAutoCompletes(res);
     }
   };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    const searchTerm = e.target.text.value.trim().split(" ").join("-");
+    if (searchTerm) {
+      router.push(`/shop/${encodeURIComponent(searchTerm)}`);
+    }
+  };
+
   return (
     <div className="modal fade modal-search" id="search">
       <div className="modal-dialog modal-dialog-centered">
@@ -38,7 +51,7 @@ export default function SearchModal() {
             <h5>Busca</h5>
             <span className="icon-close icon-close-popup" data-bs-dismiss="modal" />
           </div>
-          <form className="form-search" onSubmit={(e) => e.preventDefault()}>
+          <form className="form-search" onSubmit={handleSearchSubmit}>
             <fieldset className="text">
               <input type="text" placeholder="Pesquisar por..." className="" name="text" tabIndex={0} defaultValue="" aria-required="true" onChange={onChange} required />
             </fieldset>
@@ -55,7 +68,7 @@ export default function SearchModal() {
               <ul className="list-tags">
                 {autoCompletes.map((item) => (
                   <li>
-                    <a href={`/product-detail/${item.id}`} className="radius-60 link">
+                    <a href={`/product/${item.id}`} className="radius-60 link">
                       {item.title}
                     </a>
                   </li>

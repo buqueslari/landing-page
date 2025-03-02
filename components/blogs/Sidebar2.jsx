@@ -8,12 +8,7 @@ export default function Sidebar2() {
       <div className="sidebar-item sidebar-writer">
         <div className="writer-avatar">
           <div className="image">
-            <Image
-              alt=""
-              src="/images/avatar/user-3.jpg"
-              width={91}
-              height={113}
-            />
+            <Image alt="" src="/images/avatar/user-3.jpg" width={91} height={113} />
           </div>
           <div>
             <div className="name">
@@ -30,11 +25,7 @@ export default function Sidebar2() {
           </div>
         </div>
         <div className="writer-content">
-          <p>
-            Jessie Nguyen (@Jessie_ng) is a writer who draws. He’s the
-            Bestselling author of “Number of The Year”. Donec vitae tortor
-            efficitur, convallis lelobortis elit.
-          </p>
+          <p>Jessie Nguyen (@Jessie_ng) is a writer who draws. He’s the Bestselling author of “Number of The Year”. Donec vitae tortor efficitur, convallis lelobortis elit.</p>
           <ul className="tf-social-icon">
             <li>
               <a href="#" className="social-facebook">
@@ -73,20 +64,9 @@ export default function Sidebar2() {
         <h5 className="sidebar-heading">Relatest Post</h5>
         <div>
           {blogPosts6.slice(3, 8).map((post, i) => (
-            <div
-              key={i}
-              className={`relatest-post-item ${
-                i != 0 ? "style-row" : ""
-              } hover-image `}
-            >
+            <div key={i} className={`relatest-post-item ${i != 0 ? "style-row" : ""} hover-image `}>
               <div className="image">
-                <Image
-                  className="lazyload"
-                  alt=""
-                  src={post.imgSrc}
-                  width={540}
-                  height={360}
-                />
+                <Image className="lazyload" alt="" src={post.images[0]} width={540} height={360} />
               </div>
               <div className="content">
                 <div className="meta">

@@ -5,24 +5,18 @@ import { useEffect, useRef, useState } from "react";
 import { items } from "@/data/singleProductSliders";
 import Image from "next/image";
 import { products } from "@/data/products";
-export default function Grid5({
-  activeColor = "gray",
-  setActiveColor = () => {},
-  firstItem,
-}) {
+export default function Grid5({ activeColor = "gray", setActiveColor = () => {}, firstItem }) {
   const finalItems = [...items];
   items[0].src = firstItem ?? items[0].src;
 
-  // itemsFinal2[0].src = products[0].imgSrc;
+  // itemsFinal2[0].src = products[0].images[0];
 
   const observerRef = useRef(null);
 
   const scrollToTarget = () => {
     // Find the element with the specific data-value attribute
     const heightScroll = window.scrollY;
-    const targetElement = document.querySelector(
-      `[data-scroll='${activeColor}']`
-    );
+    const targetElement = document.querySelector(`[data-scroll='${activeColor}']`);
 
     // Check if the element exists
     if (targetElement) {
@@ -75,24 +69,8 @@ export default function Grid5({
     <div className="tf-quick-view-image">
       <div className="wrap-quick-view wrapper-scroll-quickview">
         {finalItems.map((link, index) => (
-          <a
-            href={link.href}
-            target={link.target}
-            className="quickView-item item-scroll-quickview"
-            data-scroll={link.scroll}
-            data-pswp-width={`${link.width}px`}
-            data-pswp-height={`${link.height}px`}
-            key={index}
-          >
-            <Image
-              className="lazyload"
-              data-zoom={link.zoom}
-              data-src={link.src}
-              alt={link.alt}
-              src={link.src}
-              width={link.width}
-              height={link.height}
-            />
+          <a href={link.href} target={link.target} className="quickView-item item-scroll-quickview" data-scroll={link.scroll} data-pswp-width={`${link.width}px`} data-pswp-height={`${link.height}px`} key={index}>
+            <Image className="lazyload" data-zoom={link.zoom} data-src={link.src} alt={link.alt} src={link.src} width={link.width} height={link.height} />
           </a>
         ))}
       </div>

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useContextElement } from "@/context/Context";
-import { products41 } from "@/data/products";
+import { carrinho } from "@/data/products";
 export default function CartModal() {
   const { cartProducts, setCartProducts, totalPrice, addProductToCart, isAddedToCartProducts } = useContextElement();
 
@@ -21,10 +21,10 @@ export default function CartModal() {
             <h6 className="title">Você também pode gostar</h6>
             <div className="wrap-recommendations">
               <div className="list-cart">
-                {products41.map((product, index) => (
+                {carrinho.map((product, index) => (
                   <div className="list-cart-item" key={index}>
                     <div className="image">
-                      <Image className="lazyload" data-src={product.imgSrc} alt={product.alt} src={product.imgSrc} width={600} height={800} />
+                      <Image className="lazyload" data-src={product.images[0]} alt={product.alt} src={product.images[0]} width={600} height={800} />
                     </div>
                     <div className="content">
                       <div className="name">
@@ -66,12 +66,12 @@ export default function CartModal() {
                         {cartProducts.map((product, i) => (
                           <div key={i} className="tf-mini-cart-item file-delete">
                             <div className="tf-mini-cart-image">
-                              <Image className="lazyload" alt="" src={product.imgSrc} width={600} height={800} />
+                              <Image className="lazyload" alt="" src={product.images[0]} width={600} height={800} />
                             </div>
                             <div className="tf-mini-cart-info flex-grow-1">
                               <div className="mb_12 d-flex align-items-center justify-content-between flex-wrap gap-12">
                                 <div className="text-title">
-                                  <Link href={`/product-detail/${product.id}`} className="link text-line-clamp-1">
+                                  <Link href={`/product/${product.id}`} className="link text-line-clamp-1">
                                     {product.title}
                                   </Link>
                                 </div>

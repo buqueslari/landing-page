@@ -20,7 +20,7 @@ export default function Details4({ product = allProducts[0] }) {
           <div className="row">
             {/* Product default */}
             <div className="col-md-6">
-              <Grid3 activeColor={activeColor} setActiveColor={setActiveColor} firstItem={product.imgSrc} />
+              <Grid3 activeColor={activeColor} setActiveColor={setActiveColor} firstItem={product.images[0]} />
             </div>
             {/* /Product default */}
             {/* tf-product-info-list */}

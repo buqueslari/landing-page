@@ -38,10 +38,7 @@ export default function Checkout() {
                     Login here
                   </Link>
                 </div>
-                <form
-                  className="login-box"
-                  onSubmit={(e) => e.preventDefault()}
-                >
+                <form className="login-box" onSubmit={(e) => e.preventDefault()}>
                   <div className="grid-2">
                     <input type="text" placeholder="Your name/Email" />
                     <input type="password" placeholder="Password" />
@@ -63,16 +60,8 @@ export default function Checkout() {
                     <input type="text" placeholder="Phone Number*" />
                   </div>
                   <div className="tf-select">
-                    <select
-                      className="text-title"
-                      name="address[country]"
-                      data-default=""
-                    >
-                      <option
-                        selected=""
-                        value="Choose Country/Region"
-                        data-provinces="[]"
-                      >
+                    <select className="text-title" name="address[country]" data-default="">
+                      <option selected="" value="Choose Country/Region" data-provinces="[]">
                         Choose Country/Region
                       </option>
                       <option
@@ -81,10 +70,7 @@ export default function Checkout() {
                       >
                         United States
                       </option>
-                      <option
-                        value="Australia"
-                        data-provinces="[['Australian Capital Territory','Australian Capital Territory'],['New South Wales','New South Wales'],['Northern Territory','Northern Territory'],['Queensland','Queensland'],['South Australia','South Australia'],['Tasmania','Tasmania'],['Victoria','Victoria'],['Western Australia','Western Australia']]"
-                      >
+                      <option value="Australia" data-provinces="[['Australian Capital Territory','Australian Capital Territory'],['New South Wales','New South Wales'],['Northern Territory','Northern Territory'],['Queensland','Queensland'],['South Australia','South Australia'],['Tasmania','Tasmania'],['Victoria','Victoria'],['Western Australia','Western Australia']]">
                         Australia
                       </option>
                       <option value="Austria" data-provinces="[]">
@@ -93,10 +79,7 @@ export default function Checkout() {
                       <option value="Belgium" data-provinces="[]">
                         Belgium
                       </option>
-                      <option
-                        value="Canada"
-                        data-provinces="[['Alberta','Alberta'],['British Columbia','British Columbia'],['Manitoba','Manitoba'],['New Brunswick','New Brunswick'],['Newfoundland and Labrador','Newfoundland and Labrador'],['Northwest Territories','Northwest Territories'],['Nova Scotia','Nova Scotia'],['Nunavut','Nunavut'],['Ontario','Ontario'],['Prince Edward Island','Prince Edward Island'],['Quebec','Quebec'],['Saskatchewan','Saskatchewan'],['Yukon','Yukon']]"
-                      >
+                      <option value="Canada" data-provinces="[['Alberta','Alberta'],['British Columbia','British Columbia'],['Manitoba','Manitoba'],['New Brunswick','New Brunswick'],['Newfoundland and Labrador','Newfoundland and Labrador'],['Northwest Territories','Northwest Territories'],['Nova Scotia','Nova Scotia'],['Nunavut','Nunavut'],['Ontario','Ontario'],['Prince Edward Island','Prince Edward Island'],['Quebec','Quebec'],['Saskatchewan','Saskatchewan'],['Yukon','Yukon']]">
                         Canada
                       </option>
                       <option value="Czech Republic" data-provinces="[]">
@@ -114,10 +97,7 @@ export default function Checkout() {
                       <option value="Germany" data-provinces="[]">
                         Germany
                       </option>
-                      <option
-                        value="Hong Kong"
-                        data-provinces="[['Hong Kong Island','Hong Kong Island'],['Kowloon','Kowloon'],['New Territories','New Territories']]"
-                      >
+                      <option value="Hong Kong" data-provinces="[['Hong Kong Island','Hong Kong Island'],['Kowloon','Kowloon'],['New Territories','New Territories']]">
                         Hong Kong SAR
                       </option>
                       <option
@@ -141,10 +121,7 @@ export default function Checkout() {
                       >
                         Japan
                       </option>
-                      <option
-                        value="Malaysia"
-                        data-provinces="[['Johor','Johor'],['Kedah','Kedah'],['Kelantan','Kelantan'],['Kuala Lumpur','Kuala Lumpur'],['Labuan','Labuan'],['Melaka','Malacca'],['Negeri Sembilan','Negeri Sembilan'],['Pahang','Pahang'],['Penang','Penang'],['Perak','Perak'],['Perlis','Perlis'],['Putrajaya','Putrajaya'],['Sabah','Sabah'],['Sarawak','Sarawak'],['Selangor','Selangor'],['Terengganu','Terengganu']]"
-                      >
+                      <option value="Malaysia" data-provinces="[['Johor','Johor'],['Kedah','Kedah'],['Kelantan','Kelantan'],['Kuala Lumpur','Kuala Lumpur'],['Labuan','Labuan'],['Melaka','Malacca'],['Negeri Sembilan','Negeri Sembilan'],['Pahang','Pahang'],['Penang','Penang'],['Perak','Perak'],['Perlis','Perlis'],['Putrajaya','Putrajaya'],['Sabah','Sabah'],['Sarawak','Sarawak'],['Selangor','Selangor'],['Terengganu','Terengganu']]">
                         Malaysia
                       </option>
                       <option value="Netherlands" data-provinces="[]">
@@ -171,10 +148,7 @@ export default function Checkout() {
                       <option value="Singapore" data-provinces="[]">
                         Singapore
                       </option>
-                      <option
-                        value="South Korea"
-                        data-provinces="[['Busan','Busan'],['Chungbuk','North Chungcheong'],['Chungnam','South Chungcheong'],['Daegu','Daegu'],['Daejeon','Daejeon'],['Gangwon','Gangwon'],['Gwangju','Gwangju City'],['Gyeongbuk','North Gyeongsang'],['Gyeonggi','Gyeonggi'],['Gyeongnam','South Gyeongsang'],['Incheon','Incheon'],['Jeju','Jeju'],['Jeonbuk','North Jeolla'],['Jeonnam','South Jeolla'],['Sejong','Sejong'],['Seoul','Seoul'],['Ulsan','Ulsan']]"
-                      >
+                      <option value="South Korea" data-provinces="[['Busan','Busan'],['Chungbuk','North Chungcheong'],['Chungnam','South Chungcheong'],['Daegu','Daegu'],['Daejeon','Daejeon'],['Gangwon','Gangwon'],['Gwangju','Gwangju City'],['Gyeongbuk','North Gyeongsang'],['Gyeonggi','Gyeonggi'],['Gyeongnam','South Gyeongsang'],['Incheon','Incheon'],['Jeju','Jeju'],['Jeonbuk','North Jeolla'],['Jeonnam','South Jeolla'],['Sejong','Sejong'],['Seoul','Seoul'],['Ulsan','Ulsan']]">
                         South Korea
                       </option>
                       <option
@@ -189,16 +163,10 @@ export default function Checkout() {
                       <option value="Switzerland" data-provinces="[]">
                         Switzerland
                       </option>
-                      <option
-                        value="United Arab Emirates"
-                        data-provinces="[['Abu Dhabi','Abu Dhabi'],['Ajman','Ajman'],['Dubai','Dubai'],['Fujairah','Fujairah'],['Ras al-Khaimah','Ras al-Khaimah'],['Sharjah','Sharjah'],['Umm al-Quwain','Umm al-Quwain']]"
-                      >
+                      <option value="United Arab Emirates" data-provinces="[['Abu Dhabi','Abu Dhabi'],['Ajman','Ajman'],['Dubai','Dubai'],['Fujairah','Fujairah'],['Ras al-Khaimah','Ras al-Khaimah'],['Sharjah','Sharjah'],['Umm al-Quwain','Umm al-Quwain']]">
                         United Arab Emirates
                       </option>
-                      <option
-                        value="United Kingdom"
-                        data-provinces="[['British Forces','British Forces'],['England','England'],['Northern Ireland','Northern Ireland'],['Scotland','Scotland'],['Wales','Wales']]"
-                      >
+                      <option value="United Kingdom" data-provinces="[['British Forces','British Forces'],['England','England'],['Northern Ireland','Northern Ireland'],['Scotland','Scotland'],['Wales','Wales']]">
                         United Kingdom
                       </option>
                       <option value="Vietnam" data-provinces="[]">
@@ -238,68 +206,25 @@ export default function Checkout() {
               </div>
               <div className="wrap">
                 <h5 className="title">Choose payment Option:</h5>
-                <form
-                  className="form-payment"
-                  onSubmit={(e) => e.preventDefault()}
-                >
+                <form className="form-payment" onSubmit={(e) => e.preventDefault()}>
                   <div className="payment-box" id="payment-box">
                     <div className="payment-item payment-choose-card active">
-                      <label
-                        htmlFor="credit-card-method"
-                        className="payment-header"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#credit-card-payment"
-                        aria-controls="credit-card-payment"
-                      >
-                        <input
-                          type="radio"
-                          name="payment-method"
-                          className="tf-check-rounded"
-                          id="credit-card-method"
-                          defaultChecked
-                        />
+                      <label htmlFor="credit-card-method" className="payment-header" data-bs-toggle="collapse" data-bs-target="#credit-card-payment" aria-controls="credit-card-payment">
+                        <input type="radio" name="payment-method" className="tf-check-rounded" id="credit-card-method" defaultChecked />
                         <span className="text-title">Credit Card</span>
                       </label>
-                      <div
-                        id="credit-card-payment"
-                        className="collapse show"
-                        data-bs-parent="#payment-box"
-                      >
+                      <div id="credit-card-payment" className="collapse show" data-bs-parent="#payment-box">
                         <div className="payment-body">
-                          <p className="text-secondary">
-                            Make your payment directly into our bank account.
-                            Your order will not be shipped until the funds have
-                            cleared in our account.
-                          </p>
+                          <p className="text-secondary">Make your payment directly into our bank account. Your order will not be shipped until the funds have cleared in our account.</p>
                           <div className="input-payment-box">
                             <input type="text" placeholder="Name On Card*" />
                             <div className="ip-card">
                               <input type="text" placeholder="Card Numbers*" />
                               <div className="list-card">
-                                <Image
-                                  width={48}
-                                  height={16}
-                                  alt="card"
-                                  src="/images/payment/img-7.png"
-                                />
-                                <Image
-                                  width={21}
-                                  height={16}
-                                  alt="card"
-                                  src="/images/payment/img-8.png"
-                                />
-                                <Image
-                                  width={22}
-                                  height={16}
-                                  alt="card"
-                                  src="/images/payment/img-9.png"
-                                />
-                                <Image
-                                  width={24}
-                                  height={16}
-                                  alt="card"
-                                  src="/images/payment/img-10.png"
-                                />
+                                <Image width={48} height={16} alt="card" src="/images/payment/img-7.png" />
+                                <Image width={21} height={16} alt="card" src="/images/payment/img-8.png" />
+                                <Image width={22} height={16} alt="card" src="/images/payment/img-9.png" />
+                                <Image width={24} height={16} alt="card" src="/images/payment/img-10.png" />
                               </div>
                             </div>
                             <div className="grid-2">
@@ -308,99 +233,37 @@ export default function Checkout() {
                             </div>
                           </div>
                           <div className="check-save">
-                            <input
-                              type="checkbox"
-                              className="tf-check"
-                              id="check-card"
-                              defaultChecked
-                            />
-                            <label htmlFor="check-card">
-                              Save Card Details
-                            </label>
+                            <input type="checkbox" className="tf-check" id="check-card" defaultChecked />
+                            <label htmlFor="check-card">Save Card Details</label>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="payment-item">
-                      <label
-                        htmlFor="delivery-method"
-                        className="payment-header collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#delivery-payment"
-                        aria-controls="delivery-payment"
-                      >
-                        <input
-                          type="radio"
-                          name="payment-method"
-                          className="tf-check-rounded"
-                          id="delivery-method"
-                        />
+                      <label htmlFor="delivery-method" className="payment-header collapsed" data-bs-toggle="collapse" data-bs-target="#delivery-payment" aria-controls="delivery-payment">
+                        <input type="radio" name="payment-method" className="tf-check-rounded" id="delivery-method" />
                         <span className="text-title">Cash on delivery</span>
                       </label>
-                      <div
-                        id="delivery-payment"
-                        className="collapse"
-                        data-bs-parent="#payment-box"
-                      />
+                      <div id="delivery-payment" className="collapse" data-bs-parent="#payment-box" />
                     </div>
                     <div className="payment-item">
-                      <label
-                        htmlFor="apple-method"
-                        className="payment-header collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#apple-payment"
-                        aria-controls="apple-payment"
-                      >
-                        <input
-                          type="radio"
-                          name="payment-method"
-                          className="tf-check-rounded"
-                          id="apple-method"
-                        />
+                      <label htmlFor="apple-method" className="payment-header collapsed" data-bs-toggle="collapse" data-bs-target="#apple-payment" aria-controls="apple-payment">
+                        <input type="radio" name="payment-method" className="tf-check-rounded" id="apple-method" />
                         <span className="text-title apple-pay-title">
-                          <Image
-                            alt="apple"
-                            src="/images/payment/applePay.png"
-                            width={13}
-                            height={18}
-                          />
+                          <Image alt="apple" src="/images/payment/applePay.png" width={13} height={18} />
                           Apple Pay
                         </span>
                       </label>
-                      <div
-                        id="apple-payment"
-                        className="collapse"
-                        data-bs-parent="#payment-box"
-                      />
+                      <div id="apple-payment" className="collapse" data-bs-parent="#payment-box" />
                     </div>
                     <div className="payment-item paypal-item">
-                      <label
-                        htmlFor="paypal-method"
-                        className="payment-header collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#paypal-method-payment"
-                        aria-controls="paypal-method-payment"
-                      >
-                        <input
-                          type="radio"
-                          name="payment-method"
-                          className="tf-check-rounded"
-                          id="paypal-method"
-                        />
+                      <label htmlFor="paypal-method" className="payment-header collapsed" data-bs-toggle="collapse" data-bs-target="#paypal-method-payment" aria-controls="paypal-method-payment">
+                        <input type="radio" name="payment-method" className="tf-check-rounded" id="paypal-method" />
                         <span className="paypal-title">
-                          <Image
-                            alt="apple"
-                            src="/images/payment/paypal.png"
-                            width={90}
-                            height={23}
-                          />
+                          <Image alt="apple" src="/images/payment/paypal.png" width={90} height={23} />
                         </span>
                       </label>
-                      <div
-                        id="paypal-method-payment"
-                        className="collapse"
-                        data-bs-parent="#payment-box"
-                      />
+                      <div id="paypal-method-payment" className="collapse" data-bs-parent="#payment-box" />
                     </div>
                   </div>
                   <button className="tf-btn btn-reset">Payment</button>
@@ -418,33 +281,20 @@ export default function Checkout() {
                 <div className="list-product">
                   {cartProducts.map((elm, i) => (
                     <div key={i} className="item-product">
-                      <Link
-                        href={`/product-detail/${elm.id}`}
-                        className="img-product"
-                      >
-                        <Image
-                          alt="img-product"
-                          src={elm.imgSrc}
-                          width={600}
-                          height={800}
-                        />
+                      <Link href={`/product/${elm.id}`} className="img-product">
+                        <Image alt="img-product" src={elm.images[0]} width={600} height={800} />
                       </Link>
                       <div className="content-box">
                         <div className="info">
-                          <Link
-                            href={`/product-detail/${elm.id}`}
-                            className="name-product link text-title"
-                          >
+                          <Link href={`/product/${elm.id}`} className="name-product link text-title">
                             {elm.title}
                           </Link>
                           <div className="variant text-caption-1 text-secondary">
-                            <span className="size">XL</span>/
-                            <span className="color">Blue</span>
+                            <span className="size">XL</span>/<span className="color">Blue</span>
                           </div>
                         </div>
                         <div className="total-price text-button">
-                          <span className="count">{elm.quantity}</span>X
-                          <span className="price">${elm.price.toFixed(2)}</span>
+                          <span className="count">{elm.quantity}</span>X<span className="price">${elm.price.toFixed(2)}</span>
                         </div>
                       </div>
                     </div>
@@ -473,27 +323,18 @@ export default function Checkout() {
                   >
                     {discounts.map((item, index) => (
                       <SwiperSlide key={index}>
-                        <div
-                          className={`box-discount ${
-                            activeDiscountIndex === index ? "active" : ""
-                          }`}
-                          onClick={() => setActiveDiscountIndex(index)}
-                        >
+                        <div className={`box-discount ${activeDiscountIndex === index ? "active" : ""}`} onClick={() => setActiveDiscountIndex(index)}>
                           <div className="discount-top">
                             <div className="discount-off">
                               <div className="text-caption-1">Discount</div>
-                              <span className="sale-off text-btn-uppercase">
-                                {item.discount}
-                              </span>
+                              <span className="sale-off text-btn-uppercase">{item.discount}</span>
                             </div>
                             <div className="discount-from">
                               <p className="text-caption-1">{item.details}</p>
                             </div>
                           </div>
                           <div className="discount-bot">
-                            <span className="text-btn-uppercase">
-                              {item.code}
-                            </span>
+                            <span className="text-btn-uppercase">{item.code}</span>
                             <button className="tf-btn">
                               <span className="text">Apply Code</span>
                             </button>
@@ -508,10 +349,7 @@ export default function Checkout() {
                       <span className="text">Apply Code</span>
                     </button>
                   </div>
-                  <p>
-                    Discount code is only used for orders with a total value of
-                    products over $500.00
-                  </p>
+                  <p>Discount code is only used for orders with a total value of products over $500.00</p>
                 </div>
                 <div className="sec-total-price">
                   <div className="top">
@@ -527,9 +365,7 @@ export default function Checkout() {
                   <div className="bottom">
                     <h5 className="d-flex justify-content-between">
                       <span>Total</span>
-                      <span className="total-price-checkout">
-                        ${totalPrice.toFixed(2)}
-                      </span>
+                      <span className="total-price-checkout">${totalPrice.toFixed(2)}</span>
                     </h5>
                   </div>
                 </div>

@@ -61,41 +61,19 @@ export default function BannerTab2({ parentClass = "flat-spacing pt-0" }) {
                   <br className="d-none d-lg-block" />
                   It Cosmetics
                 </h3>
-                <p>
-                  Bestow a flush of blush and a radiance boost in one step with
-                  the NEW Glow With Confidence Sun Blush - a balm infused with
-                  hyaluronic acid, vitamin E and peptides
-                </p>
+                <p>Bestow a flush of blush and a radiance boost in one step with the NEW Glow With Confidence Sun Blush - a balm infused with hyaluronic acid, vitamin E and peptides</p>
               </div>
               <ul className="tab-banner" role="tablist">
                 {products37.map((item) => (
-                  <li
-                    key={item.id}
-                    className={`nav-tab-item wow fadeInUp`}
-                    data-wow-delay={item.delay}
-                    role="presentation"
-                  >
-                    <a
-                      href={`#tabBannerCls${item.id}`}
-                      className={`nav-tab-link hover-cursor-img ${
-                        item.active ? "active" : ""
-                      }`}
-                      data-bs-toggle="tab"
-                    >
+                  <li key={item.id} className={`nav-tab-item wow fadeInUp`} data-wow-delay={item.delay} role="presentation">
+                    <a href={`#tabBannerCls${item.id}`} className={`nav-tab-link hover-cursor-img ${item.active ? "active" : ""}`} data-bs-toggle="tab">
                       <h5 className="title text-line-clamp-1">{item.title}</h5>
                       <div className="arr-link">
-                        <span className="text-btn-uppercase text-more">
-                          More
-                        </span>
+                        <span className="text-btn-uppercase text-more">More</span>
                         <i className="icon icon-arrowUpRight" />
                       </div>
                       <div className="hover-image">
-                        <Image
-                          alt="Hover Image"
-                          src={item.imgSrc}
-                          width={710}
-                          height={945}
-                        />
+                        <Image alt="Hover Image" src={item.images[0]} width={710} height={945} />
                       </div>
                     </a>
                   </li>
@@ -112,49 +90,25 @@ export default function BannerTab2({ parentClass = "flat-spacing pt-0" }) {
             <div className="banner-right flat-animate-tab">
               <div className="tab-content">
                 {products37.map((item) => (
-                  <div
-                    key={item.id}
-                    className={`tab-pane ${item.active ? "active show" : ""}`}
-                    id={`tabBannerCls${item.id}`}
-                    role="tabpanel"
-                  >
+                  <div key={item.id} className={`tab-pane ${item.active ? "active show" : ""}`} id={`tabBannerCls${item.id}`} role="tabpanel">
                     <div className="collection-position-2 hover-img">
                       <a className="img-style">
-                        <Image
-                          className="lazyload"
-                          data-src={item.imgSrc}
-                          alt="banner-cls"
-                          src={item.imgSrc}
-                          width={710}
-                          height={945}
-                        />
+                        <Image className="lazyload" data-src={item.images[0]} alt="banner-cls" src={item.images[0]} width={710} height={945} />
                         <div className="on-sale-wrap">
                           <span className="on-sale-item">-25%</span>
                         </div>
                       </a>
                       <div className="content cls-content">
                         <div className="cls-info">
-                          <Link
-                            href={`/product-detail/${item.id}`}
-                            className="text-title link text-line-clamp-1"
-                          >
+                          <Link href={`/product/${item.id}`} className="text-title link text-line-clamp-1">
                             {item.title}
                           </Link>
                           <div className="price">
-                            <span className="old-price">
-                              ${item.oldPrice.toFixed(2)}
-                            </span>
-                            <span className="new-price">
-                              ${item.price.toFixed(2)}
-                            </span>
+                            <span className="old-price">${item.oldPrice.toFixed(2)}</span>
+                            <span className="new-price">${item.price.toFixed(2)}</span>
                           </div>
                         </div>
-                        <a
-                          href="#quickView"
-                          onClick={() => setQuickViewItem(item)}
-                          data-bs-toggle="modal"
-                          className="cls-btn text-btn-uppercase"
-                        >
+                        <a href="#quickView" onClick={() => setQuickViewItem(item)} data-bs-toggle="modal" className="cls-btn text-btn-uppercase">
                           Quick View
                         </a>
                       </div>

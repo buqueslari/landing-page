@@ -32,7 +32,7 @@ export default function QuickView() {
     <div className="modal fullRight fade modal-quick-view" id="quickView">
       <div className="modal-dialog">
         <div className="modal-content">
-          <Grid5 firstItem={quickViewItem.imgSrc} activeColor={activeColor} setActiveColor={setActiveColor} />
+          <Grid5 firstItem={quickViewItem.images[0]} activeColor={activeColor} setActiveColor={setActiveColor} />
           <div className="wrap mw-100p-hidden">
             <div className="header">
               <h5 className="title">Quick View</h5>

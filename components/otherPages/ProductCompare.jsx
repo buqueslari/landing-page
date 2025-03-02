@@ -36,11 +36,11 @@ export default function ProductCompare() {
               {items.map((elm, i) => (
                 <div key={i} className="tf-compare-col">
                   <div className="tf-compare-item">
-                    <Link className="tf-compare-image" href={`/product-detail/${elm.id}`}>
-                      <Image className="lazyload" alt="img-compare" src={elm.imgSrc} width={600} height={800} />
+                    <Link className="tf-compare-image" href={`/product/${elm.id}`}>
+                      <Image className="lazyload" alt="img-compare" src={elm.images[0]} width={600} height={800} />
                     </Link>
                     <div className="tf-compare-content">
-                      <Link className="link text-title text-line-clamp-1" href={`/product-detail/${elm.id}`}>
+                      <Link className="link text-title text-line-clamp-1" href={`/product/${elm.id}`}>
                         {elm.title}
                       </Link>
                       <p className="desc text-caption-1">Clothes, women, T-shirt</p>

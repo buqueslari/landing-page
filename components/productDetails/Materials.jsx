@@ -36,37 +36,14 @@ const SelectMaterial = () => {
     <div className="variant-picker-item">
       <div className="variant-picker-label mb_12">
         Material:
-        <span className="text-title variant-picker-label-value value-currentVariant">
-          {
-            materials.find((material) => material.value === activeVariant)
-              ?.label
-          }
-        </span>
+        <span className="text-title variant-picker-label-value value-currentVariant">{materials.find((material) => material.value === activeVariant)?.label}</span>
       </div>
       <div className="variant-picker-values">
         {materials.map((material) => (
           <div key={material.id}>
-            <input
-              id={material.id}
-              type="radio"
-              name="material"
-              checked={activeVariant === material.value}
-              onChange={() => handleVariantChange(material.value)}
-            />
-            <label
-              className={`style-image hover-tooltip tooltip-bot other-variant-btn ${
-                activeVariant === material.value ? "active" : ""
-              }`}
-              data-other-variant={material.value}
-              htmlFor={material.id}
-              data-value={material.label}
-            >
-              <img
-                className="lazyloaded"
-                data-src={material.imgSrc}
-                src={material.imgSrc}
-                alt={material.alt}
-              />
+            <input id={material.id} type="radio" name="material" checked={activeVariant === material.value} onChange={() => handleVariantChange(material.value)} />
+            <label className={`style-image hover-tooltip tooltip-bot other-variant-btn ${activeVariant === material.value ? "active" : ""}`} data-other-variant={material.value} htmlFor={material.id} data-value={material.label}>
+              <img className="lazyloaded" data-src={material.images[0]} src={material.images[0]} alt={material.alt} />
               <span className="tooltip">{material.label}</span>
             </label>
           </div>

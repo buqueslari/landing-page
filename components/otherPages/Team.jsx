@@ -10,10 +10,7 @@ export default function Team() {
       <div className="container">
         <div className="heading-section text-center wow fadeInUp">
           <h3 className="heading">Meet Our Teams</h3>
-          <p className="subheading text-secondary-2">
-            Discover exceptional experiences through testimonials from our
-            satisfied customers.
-          </p>
+          <p className="subheading text-secondary-2">Discover exceptional experiences through testimonials from our satisfied customers.</p>
         </div>
         <Swiper
           dir="ltr"
@@ -32,19 +29,9 @@ export default function Team() {
         >
           {teamMembers.map((member, index) => (
             <SwiperSlide key={index}>
-              <div
-                className="team-item hover-image wow fadeInUp"
-                data-wow-delay={member.wowDelay}
-              >
+              <div className="team-item hover-image wow fadeInUp" data-wow-delay={member.wowDelay}>
                 <div className="image">
-                  <Image
-                    className="lazyload"
-                    data-src={member.imgSrc}
-                    alt={member.alt}
-                    src={member.imgSrc}
-                    width={600}
-                    height={600}
-                  />
+                  <Image className="lazyload" data-src={member.images[0]} alt={member.alt} src={member.images[0]} width={600} height={600} />
                 </div>
                 <div className="content">
                   <div>
@@ -53,9 +40,7 @@ export default function Team() {
                         {member.name}
                       </a>
                     </h6>
-                    <div className="infor text-caption-1 text-secondary-2">
-                      {member.position}
-                    </div>
+                    <div className="infor text-caption-1 text-secondary-2">{member.position}</div>
                   </div>
                   <ul className="tf-social-icon">
                     {member.social.map((social, socialIndex) => (

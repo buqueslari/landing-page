@@ -11,7 +11,7 @@ export default function Details1({ product }) {
   const { addProductToCart, isAddedToCartProducts, addToWishlist, isAddedtoWishlist, isAddedtoCompareItem, addToCompareItem, cartProducts, updateQuantity } = useContextElement();
 
   function redirecionarParaWhatsApp() {
-    const telefone = "5511980817075";
+    const telefone = "5511997140122";
     let mensagem = "Olá, gostaria desses produtos:\n\n";
     let total = 0;
     const desconto = 20.0;
@@ -22,12 +22,12 @@ export default function Details1({ product }) {
     mensagem += `*Preço:* R$${product.price.toFixed(2)}\n`;
     mensagem += `*Subtotal:* R$${subtotal.toFixed(2)}\n\n`;
 
-    mensagem += `*Desconto:* R$20,00`;
+    mensagem += `*Desconto:* R$20,00\n`;
     total -= desconto;
 
-    mensagem += `*Frete:* R$0,00`;
+    mensagem += `*Frete:* R$0,00\n`;
 
-    mensagem += `*Total:*\n💰 R$${total.toFixed(2)}\n\nObrigado!`;
+    mensagem += `*Total:*\n\n💰 R$${total.toFixed(2)}\n\nObrigado!`;
 
     const mensagemCodificada = encodeURIComponent(mensagem);
     const url = `https://wa.me/${telefone}?text=${mensagemCodificada}`;
@@ -42,7 +42,7 @@ export default function Details1({ product }) {
             {/* Product default */}
             <div className="col-md-6">
               <div className="tf-product-media-wrap sticky-top">
-                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} firstItem={product.imgSrc} secondItem={product.imgHover} />
+                <Slider1 setActiveColor={setActiveColor} activeColor={activeColor} items={product.images} />
               </div>
             </div>
             {/* /Product default */}
@@ -84,7 +84,16 @@ export default function Details1({ product }) {
                           ""
                         )}
                       </div>
-                      <p>{product.summary}</p>
+                      <p
+                        style={{
+                          display: "-webkit-box",
+                          WebkitLineClamp: 2,
+                          WebkitBoxOrient: "vertical",
+                          overflow: "hidden",
+                        }}
+                      >
+                        {product.description}
+                      </p>
                       <div className="tf-product-info-liveview">
                         <i className="icon icon-eye" />
                         <p className="text-caption-1">
@@ -187,7 +196,7 @@ export default function Details1({ product }) {
                             </div>
                             <div className="line-bt" />
                             <div>
-                              <h6>Lari Buquês</h6>
+                              <h6>Buquês Lari</h6>
                               <p>Geralmente fica pronto em 24 horas</p>
                             </div>
                             <div>
@@ -205,7 +214,7 @@ export default function Details1({ product }) {
                       </li>
                       <li>
                         <p className="text-caption-1">Vendor:</p>
-                        <p className="text-caption-1 text-1">Lari Buquês</p>
+                        <p className="text-caption-1 text-1">Buquês Lari</p>
                       </li>
                       <li>
                         <p className="text-caption-1">Available:</p>

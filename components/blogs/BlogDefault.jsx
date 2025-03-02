@@ -16,13 +16,7 @@ export default function BlogDefault() {
                 {i != 0 ? <div className="line-bt mb_40" /> : ""}
                 <div className="wg-blog hover-image mb_40">
                   <div className="image">
-                    <Image
-                      className="lazyload"
-                      alt=""
-                      src={post.imgSrc}
-                      width={1275}
-                      height={717}
-                    />
+                    <Image className="lazyload" alt="" src={post.images[0]} width={1275} height={717} />
                   </div>
                   <div className="content">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-10">

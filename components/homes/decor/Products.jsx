@@ -1,7 +1,7 @@
 "use client";
 
 import ProductCard1 from "@/components/productCards/ProductCard1";
-import { products12 } from "@/data/products";
+import { stitch } from "@/data/products";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Products() {
@@ -24,7 +24,7 @@ export default function Products() {
             1200: { slidesPerView: 4, spaceBetween: 30 },
           }}
         >
-          {products12.map((product, index) => (
+          {stitch.map((product, index) => (
             <SwiperSlide key={index}>
               <ProductCard1 product={product} />
             </SwiperSlide>

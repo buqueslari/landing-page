@@ -1421,6 +1421,7 @@
       }
     }
   }
+
   .flat-collection-circle {
     .nav-sw-left {
       margin-left: -22px;
@@ -2256,6 +2257,20 @@
       padding: 24px 15px;
     }
   }
+  .collection-circle {
+    width: fit-content;
+    .img-style {
+      display: block;
+      width: 142px;
+      height: 142px;
+      border-radius: 50%;
+      overflow: hidden;
+      &.radius-48 {
+        border-radius: 48px;
+      }
+    }
+  }
+
   .page-404 {
     .page-404-inner {
       flex-direction: column;

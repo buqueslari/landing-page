@@ -12,10 +12,7 @@ export default function Testimonials2() {
       <div className="container">
         <div className="heading-section text-center">
           <h3 className="heading wow fadeInUp">Customer Say!</h3>
-          <p className="subheading wow fadeInUp">
-            Our customers adore our products, and we constantly aim to delight
-            them.
-          </p>
+          <p className="subheading wow fadeInUp">Our customers adore our products, and we constantly aim to delight them.</p>
         </div>
         <Swiper
           dir="ltr"
@@ -38,19 +35,8 @@ export default function Testimonials2() {
             <SwiperSlide className="swiper-slide" key={index}>
               <div className="testimonial-item hover-img">
                 <div className="img-style">
-                  <Image
-                    data-src={item.imgSrc}
-                    alt={item.alt}
-                    src={item.imgSrc}
-                    width={351}
-                    height={468}
-                  />
-                  <a
-                    href="#quickView"
-                    onClick={() => setQuickViewItem(item)}
-                    data-bs-toggle="modal"
-                    className="box-icon hover-tooltip center"
-                  >
+                  <Image data-src={item.images[0]} alt={item.alt} src={item.images[0]} width={351} height={468} />
+                  <a href="#quickView" onClick={() => setQuickViewItem(item)} data-bs-toggle="modal" className="box-icon hover-tooltip center">
                     <span className="icon icon-eye" />
                     <span className="tooltip">Quick View</span>
                   </a>
@@ -65,34 +51,18 @@ export default function Testimonials2() {
                     <p className="text-secondary">{item.quote}</p>
                     <div className="box-author">
                       <div className="text-title author">{item.author}</div>
-                      <svg
-                        className="icon"
-                        width={20}
-                        height={21}
-                        viewBox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg className="icon" width={20} height={21} viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         {/* SVG content */}
                       </svg>
                     </div>
                   </div>
                   <div className="box-avt">
                     <div className="avatar avt-60 round">
-                      <Image
-                        alt="avt"
-                        src={item.avatar}
-                        width={351}
-                        height={468}
-                      />
+                      <Image alt="avt" src={item.avatar} width={351} height={468} />
                     </div>
                     <div className="box-price">
-                      <p className="text-title text-line-clamp-1">
-                        {item.title}
-                      </p>
-                      <div className="text-button price">
-                        ${item.price.toFixed(2)}
-                      </div>
+                      <p className="text-title text-line-clamp-1">{item.title}</p>
+                      <div className="text-button price">${item.price.toFixed(2)}</div>
                     </div>
                   </div>
                 </div>

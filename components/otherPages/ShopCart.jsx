@@ -114,11 +114,11 @@ export default function ShopCart() {
                       {cartProducts.map((elm, i) => (
                         <tr key={i} className="tf-cart-item file-delete">
                           <td className="tf-cart-item_product">
-                            <Link href={`/product-detail/${elm.id}`} className="img-box">
-                              <Image alt="product" src={elm.imgSrc} width={600} height={800} />
+                            <Link href={`/product/${elm.id}`} className="img-box">
+                              <Image alt="product" src={elm.images[0]} width={600} height={800} />
                             </Link>
                             <div className="cart-info">
-                              <Link href={`/product-detail/${elm.id}`} className="cart-title link">
+                              <Link href={`/product/${elm.id}`} className="cart-title link">
                                 {elm.title}
                               </Link>
                               <div className="variant-box">
