@@ -49,7 +49,6 @@ export default function ShopCart() {
     const telefone = "5511980817075";
     let mensagem = "Olá, gostaria desses produtos:\n\n";
     let total = 0;
-    const desconto = 20.0;
 
     cartProducts.forEach((item) => {
       const subtotal = item.price * item.quantity;
@@ -59,8 +58,6 @@ export default function ShopCart() {
       mensagem += `*Subtotal:* R$${subtotal.toFixed(2)}\n\n`;
     });
 
-    mensagem += `*Desconto:* R$${desconto.toFixed(2)}\n\n`;
-    total -= desconto;
 
     if (choice) {
       mensagem += `*Frete:* R$${choice.frete.price.toFixed(2)}\n\n`;

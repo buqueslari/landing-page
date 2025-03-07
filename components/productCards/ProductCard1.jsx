@@ -18,16 +18,12 @@ export default function ProductCard1({ product, gridClass = "" }) {
     const telefone = "5511980817075";
     let mensagem = "Olá, gostaria desses produtos:\n\n";
     let total = 0;
-    const desconto = 20.0;
 
     const subtotal = product.price;
     total += subtotal;
     mensagem += `1x - *${product.title}*\n`;
     mensagem += `*Preço:* R$${product.price.toFixed(2)}\n`;
     mensagem += `*Subtotal:* R$${subtotal.toFixed(2)}\n\n`;
-
-    mensagem += `*Desconto:* R$20,00\n`;
-    total -= desconto;
 
     mensagem += `*Frete:* R$0,00\n`;
 
