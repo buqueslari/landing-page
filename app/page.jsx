@@ -11,7 +11,7 @@ import Collections from "@/components/homes/home-1/Collections";
 
 export const metadata = {
   title: "Buquês Lari",
-  description: "A Buquês Lari é uma floricultura em São Paulo especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+  description: "A Buquês Lari é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#FFFFFF",
   icons: {
@@ -22,7 +22,7 @@ export const metadata = {
     title: "Buquês Lari - Floricultura em SP",
     siteName: "Buquês Lari",
     type: "website",
-    description: "A Buquês Lari é uma floricultura em São Paulo especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+    description: "A Buquês Lari é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
     url: "https://www.buqueslari.com/",
     images: [
       {
