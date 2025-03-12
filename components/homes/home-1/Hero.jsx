@@ -4,6 +4,15 @@ import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import { slides } from "@/data/heroSlides";
 import Image from "next/image";
 export default function Hero() {
+  function redirecionarParaWhatsApp() {
+    const telefone = "5511980817075";
+    let mensagem = "Oi, gostaria de ver seu catálogo";
+
+    const mensagemCodificada = encodeURIComponent(mensagem);
+    const url = `https://wa.me/${telefone}?text=${mensagemCodificada}`;
+
+    window.open(url, "_blank");
+  }
   return (
     <section className="tf-slideshow slider-default slider-effect-fade">
       <Swiper
@@ -23,7 +32,9 @@ export default function Hero() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="wrap-slider">
-              <Image alt={slide.alt} src={slide.imgSrc} fill priority />
+              <button onClick={redirecionarParaWhatsApp}>
+                <Image alt={slide.alt} src={slide.imgSrc} fill priority />
+              </button>
               <div className="box-content">
                 <div className="content-slider">
                   <div className="box-title-slider">
