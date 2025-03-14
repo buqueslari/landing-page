@@ -7,10 +7,10 @@ export const collections = [
     count: "12 items",
   },
   {
-    imgSrc: "https://www.isabelaflores.com/media/catalog/product/a/l/alta-231-2.webp",
+    imgSrc: "https://www.internacionalflores.com.br/wp-content/uploads/2023/03/CESTA-PASCOA-COELHO-2.jpg",
     alt: "collection-img",
-    href: "/shop/dia-das-mulheres",
-    title: "Dia das Mulheres",
+    href: "/shop/Páscoa",
+    title: "Feliz Páscoa",
     count: "12 items",
   },
   {
