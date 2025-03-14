@@ -3,7 +3,7 @@ import ProductCard1 from "@/components/productCards/ProductCard1";
 import { productMain } from "@/data/products";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-const tabItems = ["Buquês", "Dia das Mulheres", "Cestas", "Promoção"];
+const tabItems = ["Buquês", "Feliz Páscoa", "Cestas", "Promoção"];
 export default function Products3({ parentClass = "flat-spacing-3" }) {
   const [activeItem, setActiveItem] = useState(tabItems[0]);
   const [selectedItems, setSelectedItems] = useState([]);
@@ -53,8 +53,8 @@ export default function Products3({ parentClass = "flat-spacing-3" }) {
                       );
                     case tabItems[1]:
                       return (
-                        <Link href="/shop/dia-das-mulheres" className="btn-line">
-                          Ver Todos Produtos do Dia das Mulheres
+                        <Link href="/shop/Páscoa" className="btn-line">
+                          Ver Todos Produtos de Páscoa
                         </Link>
                       );
                     case tabItems[2]:
