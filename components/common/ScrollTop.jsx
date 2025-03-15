@@ -17,8 +17,8 @@ export default function ScrollTop({ hasPaddingBottom = false }) {
   };
 
   return (
-    <button id="scroll-top" className={`scroll-top-button ${hasPaddingBottom ? "type-1" : ""} ${isButtonVisible ? "show" : ""}`} onClick={handleScrollToTop}>
-      <FaWhatsapp size={25} />
+   <button id="scroll-top" style={{ background: "green", width: "80px", height: "80px" }} className={` scroll-top-button ${hasPaddingBottom ? "type-1" : ""} ${isButtonVisible ? "show" : ""}`} onClick={handleScrollToTop}>
+      <FaWhatsapp size={50} />
     </button>
   );
 }
