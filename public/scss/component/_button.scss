@@ -1,5 +1,9 @@
 @use "../abstracts/mixin";
 
+.scroll-top-button:hover {
+  color: white;
+}
+
 .tf-btn{
     @include mixin.transition3;
     background-color: var(--main);
