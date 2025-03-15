@@ -162,7 +162,7 @@ export default function ProductCard1({ product, gridClass = "" }) {
           </a> */}
         </div>
         <div className="list-btn-main">
-          <a className="btn-main-product" style={{ display: "flex", alignItems: "center" }} onClick={() => redirecionarParaWhatsApp()}>
+          <a className="btn-main-product" style={{ display: "flex", alignItems: "center", background: "green", color: "white" }} onClick={() => redirecionarParaWhatsApp()}>
             <FaWhatsapp size={25} className="me-2" />
             COMPRAR
           </a>
