@@ -121,7 +121,7 @@ export default function Details1({ product }) {
                     <div>
                       <div className="tf-product-info-by-btn mb_10">
                         <a onClick={() => addProductToCart(product.id, quantity)} className="btn-style-2 flex-grow-1 text-btn-uppercase fw-6 btn-add-to-cart">
-                          <span>{isAddedToCartProducts(product.id) ? "Já Adicionado" : "Adicionar ao carrinho -"}</span>
+                          <span>{isAddedToCartProducts(product.id) ? "Já Adicionado" : "Adicionar ao carrinho"}</span>
                           <span className="tf-qty-price total-price">${isAddedToCartProducts(product.id) ? (product.price * cartProducts.filter((elm) => elm.id == product.id)[0].quantity).toFixed(2) : (product.price * quantity).toFixed(2)} </span>
                         </a>
                         <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" onClick={() => addToCompareItem(product.id)} className="box-icon hover-tooltip compare btn-icon-action">
