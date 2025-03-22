@@ -17,7 +17,7 @@ export default function ProductStikyBottom() {
   const [quantity, setQuantity] = useState(1); // Initial quantity is 1
 
   return (
-    <div className="tf-sticky-btn-atc">
+    <div className="tf-sticky-btn-atc" style={{ display: "none" }}>
       <div className="container">
         <div className="row">
           <div className="col-12">
