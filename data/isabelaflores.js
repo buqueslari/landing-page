@@ -114,7 +114,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Novidades", "Promoção", "Feliz Páscoa"],
+    tabFilterOptions2: ["Novidades", "Promoção", "Páscoa"],
   },
   {
     title: "Buquê de 12 Rosas Vermelhas e Espumante",
@@ -374,7 +374,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Feliz Páscoa"],
+    tabFilterOptions2: ["Páscoa"],
   },
   {
     title: "Orquídea Phalaenopsis para Presente e Pelúcia",
@@ -2597,7 +2597,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção", "Feliz Páscoa"],
+    tabFilterOptions2: ["Promoção", "Páscoa"],
   },
   {
     title: "Arranjo de Flores Mistas Vermelhas e Chocolates",
@@ -2623,7 +2623,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Feliz Páscoa"],
+    tabFilterOptions2: ["Páscoa"],
   },
   {
     title: "Cesta de Frutas Grande e Chocolate",

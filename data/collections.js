@@ -10,7 +10,7 @@ export const collections = [
     imgSrc: "https://www.internacionalflores.com.br/wp-content/uploads/2023/03/CESTA-PASCOA-COELHO-2.jpg",
     alt: "collection-img",
     href: "/shop/Páscoa",
-    title: "Feliz Páscoa",
+    title: "Páscoa",
     count: "12 items",
   },
   {
