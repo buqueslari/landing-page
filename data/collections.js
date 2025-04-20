@@ -7,7 +7,7 @@ export const collections = [
     count: "12 items",
   },
   {
-    imgSrc: "https://www.internacionalflores.com.br/wp-content/uploads/2023/03/CESTA-PASCOA-COELHO-2.jpg",
+    imgSrc: "/images/collections/pascoa.jpeg",
     alt: "collection-img",
     href: "/shop/Páscoa",
     title: "Páscoa",
