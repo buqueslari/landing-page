@@ -3,8 +3,8 @@ import { isabelaflores } from "./isabelaflores";
 export const products = [
    {
     "title": "Cesta de Margaridas Coloridas e Ovo de Páscoa Ouro Branco",
-    "price": 202.92999999999998,
-    "oldPrice": 327.8466992859123,
+    "price": 169.92999999999998,
+    "oldPrice": 227.8466992859123,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54576-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54576-1.jpg"
@@ -24,8 +24,8 @@ export const products = [
   },
   {
     "title": "Cesta de Páscoa Ferrero Rocher",
-    "price": 286.92999999999995,
-    "oldPrice": 473.3107084307127,
+    "price": 199.92999999999995,
+    "oldPrice": 299.3107084307127,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-1.jpg"
@@ -45,8 +45,8 @@ export const products = [
   },
   {
     "title": "Cesta de Páscoa Ouro Branco",
-    "price": 216.92999999999998,
-    "oldPrice": 312.07257868946664,
+    "price": 188.92999999999998,
+    "oldPrice": 287.07257868946664,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-1.jpg"
@@ -66,8 +66,8 @@ export const products = [
   },
   {
     "title": "Cesta de Páscoa Sonho de Valsa",
-    "price": 223.92999999999998,
-    "oldPrice": 336.0200677465979,
+    "price": 149.92999999999998,
+    "oldPrice": 200.0200677465979,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-1.jpg"
@@ -87,7 +87,7 @@ export const products = [
   },
   {
     "title": "Flor da Fortuna Laranja e Cesta com Ovo de Páscoa Sonho de Valsa e Bombons",
-    "price": 139.93,
+    "price": 99.93,
     "oldPrice": 198.40810187392108,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54590-0.webp"
@@ -107,7 +107,7 @@ export const products = [
   },
   {
     "title": "Flor da Fortuna Laranja e Cesta com Ovo de Páscoa Ouro Branco e Bombons",
-    "price": 139.93,
+    "price": 119.93,
     "oldPrice": 220.53588335104106,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54589-0.webp"
@@ -127,8 +127,8 @@ export const products = [
   },
   {
     "title": "Cesta de Margaridas Coloridas e Ovo de Páscoa Ferrero Rocher",
-    "price": 251.92999999999998,
-    "oldPrice": 342.5171373396465,
+    "price": 199.92999999999998,
+    "oldPrice": 299.5171373396465,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54582-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54582-1.jpg"
@@ -148,8 +148,8 @@ export const products = [
   },
   {
     "title": "Buquê de Girassóis e Ovo de Páscoa Ferrero Rocher",
-    "price": 258.92999999999995,
-    "oldPrice": 425.1333520987839,
+    "price": 199.92999999999995,
+    "oldPrice": 299.1333520987839,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54581-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54581-1.jpg"
@@ -169,8 +169,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Pink e Ovo de Páscoa Ferrero Rocher",
-    "price": 286.92999999999995,
-    "oldPrice": 422.32396181222543,
+    "price": 189.92999999999995,
+    "oldPrice": 229.32396181222543,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54580-0_1.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54580-1_1.jpg"
@@ -190,8 +190,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Branca e Ovo de Páscoa Ferrero Rocher",
-    "price": 286.92999999999995,
-    "oldPrice": 484.85812204119384,
+    "price": 159.92999999999995,
+    "oldPrice": 200.85812204119384,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54579-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54579-1.jpg"
@@ -211,8 +211,8 @@ export const products = [
   },
   {
     "title": "Buquê de Flores do Campo Grande e Ovo de Páscoa Ferrero Rocher",
-    "price": 258.92999999999995,
-    "oldPrice": 381.65888491218743,
+    "price": 184.92999999999995,
+    "oldPrice": 200.65888491218743,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54578-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54578-1.jpg"
@@ -232,8 +232,8 @@ export const products = [
   },
   {
     "title": "12 Rosas Vermelhas e Ovo de Páscoa Ferrero Rocher",
-    "price": 258.92999999999995,
-    "oldPrice": 419.5633674581298,
+    "price": 188.92999999999995,
+    "oldPrice": 218.5633674581298,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54577-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54577-1.jpg"
@@ -253,8 +253,8 @@ export const products = [
   },
   {
     "title": "12 Rosas Vermelhas e Ovo de Páscoa Sonho de Valsa",
-    "price": 202.92999999999998,
-    "oldPrice": 289.0291868850791,
+    "price": 155.92999999999998,
+    "oldPrice": 200.0291868850791,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54565-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54565-1.jpg"
@@ -274,8 +274,8 @@ export const products = [
   },
   {
     "title": "Buquê de Girassóis e Ovo de Páscoa Ouro Branco",
-    "price": 202.92999999999998,
-    "oldPrice": 268.89495917231073,
+    "price": 166.92999999999998,
+    "oldPrice": 202.89495917231073,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54575-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54575-1.jpg"
@@ -295,8 +295,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Pink e Ovo de Páscoa Ouro Branco",
-    "price": 223.92999999999998,
-    "oldPrice": 327.8348674366863,
+    "price": 178.92999999999998,
+    "oldPrice": 207.8348674366863,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54574-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54574-1.jpg"
@@ -316,8 +316,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Branca e Ovo de Páscoa Ouro Branco",
-    "price": 216.92999999999998,
-    "oldPrice": 355.54466598101715,
+    "price": 169.92999999999998,
+    "oldPrice": 200.54466598101715,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54573-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54573-1.jpg"
@@ -337,8 +337,8 @@ export const products = [
   },
   {
     "title": "Buquê de Flores do Campo Grande e Ovo de Páscoa Ouro Branco",
-    "price": 202.92999999999998,
-    "oldPrice": 312.85209184719344,
+    "price": 179.92999999999998,
+    "oldPrice": 220.85209184719344,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54572-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54572-1.jpg"
@@ -379,8 +379,8 @@ export const products = [
   },
   {
     "title": "Cesta de Margaridas Coloridas e Ovo de Páscoa Sonho de Valsa",
-    "price": 195.92999999999998,
-    "oldPrice": 317.62907804713086,
+    "price": 177.92999999999998,
+    "oldPrice": 200.62907804713086,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54570-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54570-1.jpg"
@@ -400,8 +400,8 @@ export const products = [
   },
   {
     "title": "Buquê de Girassóis e Ovo de Páscoa Sonho de Valsa",
-    "price": 202.92999999999998,
-    "oldPrice": 313.96404413695575,
+    "price": 134.92999999999998,
+    "oldPrice": 200.96404413695575,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54569-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54569-1.jpg"
@@ -421,8 +421,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Pink e Ovo de Páscoa Sonho de Valsa",
-    "price": 223.92999999999998,
-    "oldPrice": 335.0534415878272,
+    "price": 149.92999999999998,
+    "oldPrice": 200.0534415878272,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54568-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54568-1.jpg"
@@ -442,8 +442,8 @@ export const products = [
   },
   {
     "title": "Orquídea Phalaenopsis Branca e Ovo de Páscoa Sonho de Valsa",
-    "price": 216.92999999999998,
-    "oldPrice": 303.34190917063006,
+    "price": 139.92999999999998,
+    "oldPrice": 180.34190917063006,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54567-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54567-1.jpg"
@@ -463,8 +463,8 @@ export const products = [
   },
   {
     "title": "Buquê de Flores do Campo Grande e Ovo de Páscoa Sonho de Valsa",
-    "price": 202.92999999999998,
-    "oldPrice": 321.37246070719306,
+    "price": 110.92999999999998,
+    "oldPrice": 200.37246070719306,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54566-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54566-1.jpg"
