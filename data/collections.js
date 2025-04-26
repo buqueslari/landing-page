@@ -1,5 +1,12 @@
 export const collections = [
   {
+    imgSrc: "https://www.isabelaflores.com/media/catalog/product/a/l/alta-230-0.webp",
+    alt: "collection-img",
+    href: "/shop/Dia-das-Mães",
+    title: "Dia das Mães",
+    count: "12 items",
+  },
+  {
     imgSrc: "/images/products/buque-fascino/img-1.webp",
     alt: "collection-img",
     href: "/shop/buquê",
@@ -21,6 +28,13 @@ export const collections = [
     count: "12 items",
   },
   {
+    imgSrc: "https://static.giulianaflores.com.br/images/banner/departamentos/Categoria-orquideas-062021.jpg?ims=182x",
+    alt: "collection-img",
+    href: "/shop/orquídea",
+    title: "Orquídeas",
+    count: "12 items",
+  },
+  {
     imgSrc: "https://www.isabelaflores.com/media/catalog/product/a/l/alta-9057-0.webp",
     alt: "collection-img",
     href: "/shop/kit",
@@ -28,13 +42,6 @@ export const collections = [
     count: "12 items",
   },
   {
-    imgSrc: "https://static.giulianaflores.com.br/images/banner/departamentos/Categoria-orquideas-062021.jpg?ims=182x",
-    alt: "collection-img",
-    href: "/shop/orquídea",
-    title: "Orquídeas",
-    count: "12 items",
-  },
-    {
     imgSrc: "/images/collections/pascoa.jpeg",
     alt: "collection-img",
     href: "/shop/Páscoa",
