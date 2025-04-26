@@ -2,12 +2,12 @@ import { isabelaflores } from "./isabelaflores";
 
 export const products = [
    {
-    "title": "Cesta de Margaridas Coloridas e Ovo de Páscoa Ouro Branco",
-    "price": 169.92999999999998,
-    "oldPrice": 227.8466992859123,
+    "title": "Buquê com 24 Rosas de Três Cores",
+    "price": 119.99,
+    "oldPrice": 205,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54576-0.webp",
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54576-1.jpg"
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
     ],
     "description": "",
     "id": 274,
@@ -20,6 +20,27 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Páscoa"
+    ]
+  },
+  {
+    "title": "Buquê de 08 Rosas Colombianas Vermelhas",
+    "price": 119.99,
+    "oldPrice": 205,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/31095gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/31095gg1.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 1011,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia das Mães",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
     ]
   },
   {
