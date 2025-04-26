@@ -10,8 +10,8 @@ import Header2 from "@/components/headers/Header2";
 import Collections from "@/components/homes/home-1/Collections";
 
 export const metadata = {
-  title: "Buquês Lari",
-  description: "A Buquês Lari é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+  title: "Lari Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+  description: "A Lari Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#FFFFFF",
   icons: {
@@ -19,10 +19,10 @@ export const metadata = {
   },
   openGraph: {
     locale: "pt-BR",
-    title: "Buquês Lari - Floricultura em SP",
-    siteName: "Buquês Lari",
+    title: "Lari Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+    siteName: "Lari Flores",
     type: "website",
-    description: "A Buquês Lari é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+    description: "A Lari Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
     url: "https://www.buqueslari.com/",
     images: [
       {
@@ -33,8 +33,8 @@ export const metadata = {
   alternates: {
     canonical: "https://www.buqueslari.com/",
   },
-  keywords: ["Buquês Lari", "Lari Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
-  authors: [{ name: "Buquês Lari", url: "https://www.buqueslari.com/" }],
+  keywords: ["Lari Flores", "Lari Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
+  authors: [{ name: "Lari Flores", url: "https://www.buqueslari.com/" }],
 };
 export default function Home() {
   return (

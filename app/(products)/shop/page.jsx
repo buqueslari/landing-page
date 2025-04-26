@@ -5,8 +5,8 @@ import React from "react";
 
 export async function generateMetadata() {
   return {
-    title: `Todos Produtos || Buquês Lari`,
-    description: `Veja Todos os Produtos da Buquês Lari.`,
+    title: `Todos Produtos || Lari Flores`,
+    description: `Veja Todos os Produtos da Lari Flores.`,
   };
 }
 
