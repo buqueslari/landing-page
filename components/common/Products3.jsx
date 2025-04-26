@@ -3,7 +3,7 @@ import ProductCard1 from "@/components/productCards/ProductCard1";
 import { productMain } from "@/data/products";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-const tabItems = ["Páscoa", "Buquês", "Cestas", "Promoção"];
+const tabItems = ["Buquês", "Cestas", "Promoção","Páscoa"];
 export default function Products3({ parentClass = "flat-spacing-3" }) {
   const [activeItem, setActiveItem] = useState(tabItems[0]);
   const [selectedItems, setSelectedItems] = useState([]);
