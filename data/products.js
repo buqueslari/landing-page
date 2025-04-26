@@ -37,10 +37,12 @@ export const products = [
     "inStock": true,
     "tabFilterOptions": [
       "Dia das Mães",
-      "Promoção"
+      "Promoção",
+      "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
+      "Buquês"
     ]
   },
   {
