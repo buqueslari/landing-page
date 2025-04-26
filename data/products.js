@@ -46,6 +46,29 @@ export const products = [
     ]
   },
   {
+    "title": "Buquê de 08 Rosas Colombianas Vermelhas",
+    "price": 119.99,
+    "oldPrice": 205,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/31095gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/31095gg1.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 1011,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia das Mães",
+      "Promoção",
+      "Buquês"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães",
+      "Buquês"
+    ]
+  },
+  {
     "title": "Cesta de Páscoa Ferrero Rocher",
     "price": 199.92999999999995,
     "oldPrice": 299.3107084307127,
