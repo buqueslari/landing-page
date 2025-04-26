@@ -7,13 +7,6 @@ export const collections = [
     count: "12 items",
   },
   {
-    imgSrc: "/images/collections/pascoa.jpeg",
-    alt: "collection-img",
-    href: "/shop/Páscoa",
-    title: "Páscoa",
-    count: "12 items",
-  },
-  {
     imgSrc: "https://www.isabelaflores.com/media/catalog/product/a/l/alta-284-1.webp",
     alt: "collection-img",
     href: "/shop/cesta",
@@ -41,6 +34,13 @@ export const collections = [
     title: "Orquídeas",
     count: "12 items",
   },
+    {
+    imgSrc: "/images/collections/pascoa.jpeg",
+    alt: "collection-img",
+    href: "/shop/Páscoa",
+    title: "Páscoa",
+    count: "12 items",
+  }
 ];
 
 export const collections2 = [
