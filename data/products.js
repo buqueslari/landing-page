@@ -23,6 +23,27 @@ export const products = [
     ]
   },
   {
+    "title": "Buquê Partitura Girassol",
+    "price": 119.99,
+    "oldPrice": 205,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/32512gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/32512gg1.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 274,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Páscoa"
+    ]
+  },
+  {
     "title": "Buquê de 08 Rosas Colombianas Vermelhas",
     "price": 119.99,
     "oldPrice": 205,
@@ -46,12 +67,35 @@ export const products = [
     ]
   },
   {
-    "title": "Buquê de 08 Rosas Colombianas Vermelhas",
-    "price": 119.99,
-    "oldPrice": 205,
+    "title": "Buquê Criativo de Flores Secas Sortidas",
+    "price": 69.99,
+    "oldPrice": 119,99,
     "images": [
-      "https://static.giulianaflores.com.br/images/product/31095gg.jpg?ims=405x405",
-      "https://static.giulianaflores.com.br/images/product/31095gg1.jpg?ims=600x600"
+      "https://static.giulianaflores.com.br/images/product/32169gg1.jpg?ims=600x600",
+      "https://static.giulianaflores.com.br/images/product/32169gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 1011,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia das Mães",
+      "Promoção",
+      "Buquês"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães",
+      "Buquês"
+    ]
+  },
+  {
+    "title": "Vaso de Mini Rosa Vermelha Plantada",
+    "price": 69.99,
+    "oldPrice": 119,99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/24680gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/24680gg1.jpg?ims=600x600"
     ],
     "description": "",
     "id": 1011,
