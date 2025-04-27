@@ -4,7 +4,7 @@ export const products = [
    {
     "title": "Buquê com 24 Rosas de Três Cores",
     "price": 119.99,
-    "oldPrice": 205,
+    "oldPrice": 205.99,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
@@ -25,7 +25,7 @@ export const products = [
   {
     "title": "Buquê Partitura Girassol",
     "price": 79.99,
-    "oldPrice": 199,5,
+    "oldPrice": 199.99,
     "images": [
       "https://static.giulianaflores.com.br/images/product/32512gg.jpg?ims=405x405",
       "https://static.giulianaflores.com.br/images/product/32512gg1.jpg?ims=600x600"
@@ -69,7 +69,7 @@ export const products = [
   {
     "title": "Buquê Criativo de Flores Secas Sortidas",
     "price": 69.99,
-    "oldPrice": 119,99,
+    "oldPrice": 119.99,
     "images": [
       "https://static.giulianaflores.com.br/images/product/32169gg1.jpg?ims=600x600",
       "https://static.giulianaflores.com.br/images/product/32169gg3.jpg?ims=600x600"
@@ -92,7 +92,7 @@ export const products = [
   {
     "title": "Vaso de Mini Rosa Vermelha Plantada",
     "price": 69.99,
-    "oldPrice": 119,99,
+    "oldPrice": 119.99,
     "images": [
       "https://static.giulianaflores.com.br/images/product/24680gg.jpg?ims=405x405",
       "https://static.giulianaflores.com.br/images/product/24680gg1.jpg?ims=600x600"
