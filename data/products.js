@@ -10,7 +10,90 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
     ],
     "description": "",
+    "id": 20000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Buquê de 50 Rosas Vermelhas",
+    "price": 259.99,
+    "oldPrice": 575.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/26148gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/26148gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2000078,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Buquê Carinho de Rosas Pink",
+    "price": 99.99,
+    "oldPrice": 219.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/21823gg2.jpg?ims=600x600",
+    ],
+    "description": "",
     "id": 2000074,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Cesta de Chocolate Pra Quem Merece",
+    "price": 99.99,
+    "oldPrice": 209.99,
+    "images": [
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+    ],
+    "description": "",
+    "id": 2000076,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Cesta Luxo Doce Dia",
+    "price": 129.99,
+    "oldPrice": 398.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/15774gg.jpg?ims=600x600",
+      "https://static.giulianaflores.com.br/images/product/15774gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2000075,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
