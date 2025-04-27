@@ -10,7 +10,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
     ],
     "description": "",
-    "id": 274,
+    "id": 2000074,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
@@ -24,14 +24,14 @@ export const products = [
   },
   {
     "title": "Buquê Partitura Girassol",
-    "price": 119.99,
-    "oldPrice": 205,
+    "price": 79.99,
+    "oldPrice": 199,5,
     "images": [
       "https://static.giulianaflores.com.br/images/product/32512gg.jpg?ims=405x405",
       "https://static.giulianaflores.com.br/images/product/32512gg1.jpg?ims=600x600"
     ],
     "description": "",
-    "id": 274,
+    "id": 2714,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
@@ -52,7 +52,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/31095gg1.jpg?ims=600x600"
     ],
     "description": "",
-    "id": 1011,
+    "id": 11011,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
@@ -75,7 +75,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/32169gg3.jpg?ims=600x600"
     ],
     "description": "",
-    "id": 1011,
+    "id": 17011,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
@@ -98,7 +98,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/24680gg1.jpg?ims=600x600"
     ],
     "description": "",
-    "id": 1011,
+    "id": 1000911,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
