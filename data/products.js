@@ -23,6 +23,90 @@ export const products = [
     ]
   },
   {
+    "title": "Linda Margaridinha Plantada e Chocolate Suflair",
+    "price": 98.99,
+    "oldPrice": 118.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/29671gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/29671gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 20000614,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Mega Buquê de 100 Rosas Colombianas Vermelhas",
+    "price": 559.99,
+    "oldPrice": 1859.99,
+    "images": [
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+    ],
+    "description": "",
+    "id": 30000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Buquê de 30 Rosas Azuis com Gypsophila",
+    "price": 139.99,
+    "oldPrice": 325.99,
+    "images": [
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+    ],
+    "description": "",
+    "id": 20000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Kit de Vinho e Chocolate Especial",
+    "price": 109.99,
+    "oldPrice": 238.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/28182gg.jpg?ims=600x600",
+      "https://static.giulianaflores.com.br/images/product/28182gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 20000710,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
     "title": "Buquê de 50 Rosas Vermelhas",
     "price": 259.99,
     "oldPrice": 575.99,
