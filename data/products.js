@@ -48,8 +48,8 @@ export const products = [
     "price": 559.99,
     "oldPrice": 1859.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+      "https://static.giulianaflores.com.br/images/product/27661gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/27661gg3.jpg?ims=600x600"
     ],
     "description": "",
     "id": 30000714,
@@ -69,8 +69,8 @@ export const products = [
     "price": 139.99,
     "oldPrice": 325.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+      "https://static.giulianaflores.com.br/images/product/30948gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/30948gg2.jpg?ims=600x600"
     ],
     "description": "",
     "id": 20000714,
@@ -152,8 +152,8 @@ export const products = [
     "price": 99.99,
     "oldPrice": 209.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+      "https://static.giulianaflores.com.br/images/product/29894gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/29894gg2.jpg?ims=600x600"
     ],
     "description": "",
     "id": 2000076,
