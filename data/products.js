@@ -19,7 +19,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Páscoa"
+      "Dia das Mães"
     ]
   },
   {
@@ -40,7 +40,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Páscoa"
+      "Dia das Mães"
     ]
   },
   {
