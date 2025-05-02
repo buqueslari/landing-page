@@ -19,8 +19,8 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
-      "Buquês",
+      "Dia das Mães",
+      "Buquês"
     ]
   },
   {
@@ -40,7 +40,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -62,7 +62,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -84,7 +84,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -105,7 +105,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -127,7 +127,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -149,7 +149,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -171,7 +171,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -193,7 +193,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -215,7 +215,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -236,7 +236,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
       "Buquês",
     ]
   },
@@ -258,7 +258,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
     ]
   },
   {
@@ -279,7 +279,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
     ]
   },
   {
@@ -300,7 +300,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães"
+      "Dia das Mães",
     ]
   },
   {
