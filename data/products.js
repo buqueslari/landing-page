@@ -2,15 +2,97 @@ import { isabelaflores } from "./isabelaflores";
 
 export const products = [
    {
-    "title": "Buquê com 24 Rosas de Três Cores",
+    "title": "Cesta de Café para Uma Pessoa",
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-2.webp",
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-185-0.webp"
+      "https://mundodasflores.com/wp-content/uploads/2025/04/Screenshot_15.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/alta-274-2-1.webp"
     ],
     "description": "",
-    "id": 20000714,
+    "id": 20040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Cesta de Aniversário com chocolate e Flor",
+    "price": 129.99,
+    "oldPrice": 200.19,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672153_181a97f33de5d07fe6f9.webp.webp",
+    ],
+    "description": "",
+    "id": 60000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Kit De Presente para mãe Dia Das Mães Almofada Caneca Cartão – Sude",
+    "price": 139.99,
+    "oldPrice": 215.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/01ebc997e810f0307a06a79948cbe40c.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/597b290b2b4ed5894b26c9b357a859c1.webp"
+    ],
+    "description": "",
+    "id": 50000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "Presente Dia das Mães com Flor e Chocolate",
+    "price": 75.99,
+    "oldPrice": 150.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/Presente-Dia-das-Maes-com-Flor-e-Chocolate.jpeg.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/floricultura-joinville-rosa-chocolate1.jpeg.webp"
+    ],
+    "description": "",
+    "id": 300010714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia das Mães"
+    ]
+  },
+  {
+    "title": "CESTA DIA DAS MÃES",
+    "price": 119.99,
+    "oldPrice": 220.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/design-sem-nome-2023-05-06t092710-0471-5a9a57b9d5322f4a3c16838075406295-1024-1024.webp",
+    ],
+    "description": "",
+    "id": 200007114,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
