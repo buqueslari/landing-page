@@ -20,6 +20,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -40,6 +41,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -61,6 +63,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -82,6 +85,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -102,6 +106,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -123,6 +128,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -144,6 +150,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -165,6 +172,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -186,6 +194,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -207,6 +216,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
@@ -227,6 +237,7 @@ export const products = [
     ],
     "tabFilterOptions2": [
       "Dia das Mães"
+      "Buquês"
     ]
   },
   {
