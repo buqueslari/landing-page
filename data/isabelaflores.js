@@ -192,7 +192,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta com 9 Rosas Vermelhas e Folhagem",
@@ -205,7 +205,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta com Rosas e Margaridas Amarelas e Brancas",
@@ -218,7 +218,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 15 Rosas Brancas e Espumante",
@@ -270,7 +270,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta com 24 Rosas Brancas",
@@ -296,7 +296,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 15 Rosas Amarelas",
@@ -348,7 +348,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Orquídea Phalaenopsis Bicolor",
@@ -387,7 +387,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Orquídea Phalaenopsis Pink e Chocolate",
@@ -491,7 +491,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo Grande de Flores do Campo Coloridas em Vaso",
@@ -504,7 +504,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Rosas, Cravos e Gérberas",
@@ -517,7 +517,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Margaridas, Cravos e Rosas em Tons Rosados",
@@ -530,7 +530,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Margaridas, Cravos e Rosas e Kit Natura Tododia Ameixa e Flor de Baunilha",
@@ -556,7 +556,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Ramalhete de Margaridas Coloridas",
@@ -686,7 +686,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Margaridas Brancas e Conjunto Natura Mamãe e Bebê",
@@ -699,7 +699,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Ramalhete de Margaridas Coloridas e Kit Natura Homem Tato",
@@ -725,7 +725,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta com 3 Violetas e Chocolates",
@@ -764,7 +764,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Antúrio para Presente",
@@ -777,7 +777,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Lírios, Gerberas Brancas e Chocolate",
@@ -790,7 +790,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Gérberas Amarelas e Margaridas Brancas e Natura Homem",
@@ -816,7 +816,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 12 Gérberas e Kit Natura Essencial",
@@ -842,7 +842,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Duas Gérberas em Vaso e Conjunto Natura Mamãe e Bebê",
@@ -868,7 +868,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Gérberas e Astromélias Amarelas e Brancas",
@@ -920,7 +920,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Duas Gérberas em Vaso",
@@ -985,7 +985,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "12 Gérberas, Chocolates e Pelúcia",
@@ -998,7 +998,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de Astromélias e Gérberas",
@@ -1076,7 +1076,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Luxuosa Coroa de Condolências",
@@ -1089,7 +1089,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de Flores do Campo em Tons Rosados",
@@ -1284,7 +1284,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo Bicolor de Rosas e Astromélias",
@@ -1362,7 +1362,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de Lírios e Rosas Vermelhas",
@@ -1388,7 +1388,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Girassóis em Vaso",
@@ -1414,7 +1414,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Girassóis em Vaso e Kit Natura Homem Tato",
@@ -1479,7 +1479,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Flor da Fortuna Branca para Presente",
@@ -1544,7 +1544,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Café Bom Dia",
@@ -1557,7 +1557,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Café com Chocolate e Flores",
@@ -1609,7 +1609,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo de Lisianthus e Astromélias",
@@ -1622,7 +1622,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de Rosas e Astromélias em Tons Rosados, Chocolate e Espumante",
@@ -1635,7 +1635,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de Rosas e Astromélias em Tons Rosados",
@@ -1713,7 +1713,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 7 Rosas Rosadas e Kit Natura Tododia Cereja e Avelã",
@@ -1752,7 +1752,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 12 Rosas Vermelhas e Kit Natura Tododia Ameixa e Flor de Baunilha",
@@ -1804,7 +1804,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 3 Rosas Amarelas",
@@ -1843,7 +1843,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 6 Rosas Vermelhas e Pelúcia",
@@ -1882,7 +1882,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê Tradicional de 16 Rosas Brancas e Espumante",
@@ -1895,7 +1895,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 15 Rosas Brancas e Folhagem",
@@ -1908,7 +1908,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê com 10 Rosas Brancas e Vermelhas",
@@ -2051,7 +2051,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Buquê de 20 Rosas Vermelhas",
@@ -2207,7 +2207,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Arranjo em Tons Rosados e Kit Natura Tododia Cereja e Avelã",
@@ -2285,7 +2285,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta Grande de Queijos, Fruta, Pães e Vinho Tinto",
@@ -2454,7 +2454,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Coroa de Condolências de Rosas na Cor Amarela",
@@ -2493,7 +2493,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Chocolates e Guloseimas",
@@ -2584,7 +2584,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: false,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Chocolate e Vinho Tinto",
@@ -2675,7 +2675,7 @@ export const isabelaflores = [
     isOnSale: true,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Frutas, Flores e Vinho Tinto",
@@ -2688,7 +2688,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta de Frutas e Vinho Tinto",
@@ -2870,7 +2870,7 @@ export const isabelaflores = [
     isOnSale: false,
     inStock: true,
     tabFilterOptions: [],
-    tabFilterOptions2: ["Promoção"],
+    tabFilterOptions2: ["Promoção", "Dia das Mães"],
   },
   {
     title: "Cesta com 15 Rosas Vermelhas",
