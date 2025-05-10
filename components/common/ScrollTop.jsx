@@ -8,7 +8,7 @@ export default function ScrollTop({ hasPaddingBottom = false }) {
 
   const handleScrollToTop = () => {
     const telefone = "5511979636914";
-    let mensagem = "Oi, gostaria de ver seu catálogo";
+    let mensagem = "Olá! Estou interessado(a) nos produtos da sua loja. Poderia me dar mais informações? Obrigado!";
 
     const mensagemCodificada = encodeURIComponent(mensagem);
     const url = `https://wa.me/${telefone}?text=${mensagemCodificada}`;
