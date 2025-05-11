@@ -46,7 +46,7 @@ export default function ShopCart() {
       return;
     }
 
-    const telefone = "5582996680355";
+    const telefone = "551152961119";
     let mensagem = "Olá, gostaria desses produtos:\n\n";
     let total = 0;
 
