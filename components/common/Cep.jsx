@@ -139,7 +139,7 @@ export default function Cep({ handleChoiceCep }) {
               <div style={{ width: "100%" }}>
                 <h5 style={{ padding: "9px", marginBottom: "20px", background: "#f8f8f8" }}>Data Escolhida</h5>
                 <div>
-                  <DayPicker style={{ margin: "0 auto", width: "fit-content" }} locale={ptBR} disabled={(date) => date.getDay() === 0 || date.getDay() === 6 || date < minDate} mode="single" selected={selected} onSelect={setSelected} />{" "}
+                  <DayPicker style={{ margin: "0 auto", width: "fit-content" }} locale={ptBR} mode="single" selected={selected} onSelect={setSelected} />
                 </div>
               </div>
               <div style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
