@@ -163,7 +163,7 @@ export default function Details1({ product }) {
                           <i className="icon-timer" />
                         </div>
                         <p className="text-caption-1">
-                          Entrega estimada:&nbsp;&nbsp;<span>1-4 dias</span>
+                          Entrega estimada:&nbsp;&nbsp;<span>30-60 minutos</span>
                           (Brasil)
                         </p>
                       </div>
@@ -172,7 +172,7 @@ export default function Details1({ product }) {
                           <i className="icon-arrowClockwise" />
                         </div>
                         <p className="text-caption-1">
-                          Reembolso em <span>45 dias</span> de compra.
+                          Reembolso em <span>7 dias</span> de compra.
                         </p>
                       </div>
                       <div className="dropdown dropdown-store-location">
