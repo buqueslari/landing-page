@@ -95,7 +95,6 @@ export default function Description({ description }) {
             </svg>
           </div>
         </div>
-        <div className="text-caption-2">MACHINE WASHING MAX 30°C / 85ºF SHORT SPIN DRY</div>
       </div>
     </>
   );
