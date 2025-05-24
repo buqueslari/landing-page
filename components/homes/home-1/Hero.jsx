@@ -5,7 +5,7 @@ import { slides } from "@/data/heroSlides";
 import Image from "next/image";
 export default function Hero() {
   function redirecionarParaWhatsApp() {
-    const telefone = "551152961119";
+    const telefone = "555531922772";
     let mensagem = "Olá! Estou interessado(a) nos produtos da sua loja. Poderia me dar mais informações? Obrigado!";
 
     const mensagemCodificada = encodeURIComponent(mensagem);
