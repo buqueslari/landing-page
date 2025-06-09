@@ -1,7 +1,72 @@
 import { isabelaflores } from "./isabelaflores";
 
 export const products = [
-   {
+    {
+    "title": "Cesta Café da Manhã Amor de Namorado",
+    "price": 119.99,
+    "oldPrice": 199.99,
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM"
+    ],
+    "description": "",
+    "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Buquê de Tulipas Naturais",
+    "price": 119.99,
+    "oldPrice": 180.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp"
+    ],
+    "description": "",
+    "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Café da Manhã CASAL (caixote claro)",
+    "price": 159.00,
+    "oldPrice": 199.99,
+    "images": [
+      "https://amandafloricultura.com/wp-content/uploads/2025/03/18.png",
+    ],
+    "description": "",
+    "id": 245478950040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+  {
     "title": "Cesta de Café para Uma Pessoa",
     "price": 119.99,
     "oldPrice": 205.99,
@@ -19,7 +84,93 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+    {
+    "title": "Cesta O Amor Está no Ar, Trio de Rosas + Ursinho + Chocolates",
+    "price": 99.99,
+    "oldPrice": 119.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/dia-dos-namorados-site-2024-3-44794ee2c60d15913017327334655506-1024-1024.png",
+    ],
+    "description": "",
+    "id": 231200007114,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+     {
+    "title": "Buque 12 Rosas Vermelhas e Caixa de bombom",
+    "price": 79.99,
+    "oldPrice": 119.99,
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTeL2N3MWyI43rtWFXyK6fFsVNvT9I0ePVotUeskTF_VchPDVfopBIp5Lxcx37_1CDgLcmMVXt7GjuydXovH0jXn8mvGCz-MyBqKZUozE9rXyuTZm3QFA-JBg",
+    ],
+    "description": "",
+    "id": 200400909714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia dos Namorados",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+    {
+    "title": "Caixa Cesta de Coração - Dia dos Namorados",
+    "price": 109.99,
+    "oldPrice": 200.99,
+    "images": [
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810",
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810"
+    ],
+    "description": "",
+    "id": 20040112714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+   {
+    "title": "Kit Presente Cesta - Dia dos Namorados ",
+    "price": 119.99,
+    "oldPrice": 205.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png",
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png"
+    ],
+    "description": "",
+    "id": 2004075514,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -40,7 +191,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -62,7 +213,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -84,7 +235,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -105,7 +256,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -127,7 +278,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -149,7 +300,29 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+    {
+    "title": "Buquê de Girassóis Noite Estrelada Van Gogh",
+    "price": 120.99,
+    "oldPrice": 200.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp"
+    ],
+    "description": "",
+    "id": 30003300714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -171,7 +344,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -193,7 +366,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -215,7 +388,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -236,7 +409,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -258,7 +431,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -279,7 +452,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -300,7 +473,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -317,12 +490,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -340,12 +513,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -363,12 +536,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -869,7 +1042,7 @@ export const products = [
     addToCart: "Adicionar Rápido",
     countdown: 1007500,
     inStock: true,
-    tabFilterOptions2: ["Promoção", "Dia das Mães"],
+    tabFilterOptions2: ["Novidades", "Promoção"],
     tabFilterOptions: ["Bebidas", "Promoção", "Presentes"],
     description: "Desfrute do melhor da cervejaria Paulistânia com o Kit Marco Zero, que inclui duas cervejas artesanais e uma taça especial. Ideal para apreciadores de cervejas que valorizam qualidade e sabor. Perfeito para presentear ou para momentos de degustação, o Kit Paulistânia Marco Zero proporciona uma experiência única e sofisticada no universo das cervejas artesanais.",
   },
@@ -1165,7 +1338,7 @@ export const presentes = [
     oldPrice: 169.0,
     isOnSale: false,
     inStock: true,
-    tabFilterOptions2: ["Promoção", "Dia das Mães"],
+    tabFilterOptions2: ["Novidades", "Promoção"],
     tabFilterOptions: ["Orquídeas", "Promoção"],
     description: "A Orquídea Phalaenopsis Pink é perfeita para adicionar beleza e elegância ao seu espaço. Com pétalas rosas delicadas e vibrantes, esta orquídea é ideal para decorações sofisticadas e como presente encantador para qualquer ocasião especial. Sua durabilidade e facilidade de cuidado fazem dela uma ótima opção tanto para iniciantes quanto para entusiastas de plantas.",
   },
