@@ -5,8 +5,8 @@ import Contact2 from "@/components/otherPages/Contact2";
 import React from "react";
 
 export const metadata = {
-  title: "Contact || Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
-  description: "Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
+  title: "Contact || Lari Buquês - Multipurpose React Nextjs eCommerce Template",
+  description: "Lari Buquês - Multipurpose React Nextjs eCommerce Template",
 };
 
 export default function page() {
