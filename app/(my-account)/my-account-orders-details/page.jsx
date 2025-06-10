@@ -7,8 +7,8 @@ import OrderDetails from "@/components/my-account/OrderDetails";
 import React from "react";
 
 export const metadata = {
-  title: "My Account Order Details || Lari Buquês - Multipurpose React Nextjs eCommerce Template",
-  description: "Lari Buquês - Multipurpose React Nextjs eCommerce Template",
+  title: "My Account Order Details || Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
+  description: "Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
 };
 
 export default function page() {

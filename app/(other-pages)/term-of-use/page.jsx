@@ -5,8 +5,8 @@ import Terms from "@/components/otherPages/Terms";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Terms of Use || Lari Buquês - Multipurpose React Nextjs eCommerce Template",
-  description: "Lari Buquês - Multipurpose React Nextjs eCommerce Template",
+  title: "Terms of Use || Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
+  description: "Luiza Flores Buquês - Multipurpose React Nextjs eCommerce Template",
 };
 
 export default function page() {
