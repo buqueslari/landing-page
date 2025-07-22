@@ -63,7 +63,7 @@ export const products = [
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/Screenshot_15.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-2.webp",
       "https://mundodasflores.com/wp-content/uploads/2025/04/alta-274-2-1.webp"
     ],
     "description": "",
