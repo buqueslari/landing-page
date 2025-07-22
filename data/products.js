@@ -1,5 +1,7 @@
+import { isabelaflores } from "./isabelaflores";
+
 export const products = [
-  {
+    {
     "title": "Cesta Café da Manhã Amor de Namorado",
     "price": 119.99,
     "oldPrice": 199.99,
@@ -7,7 +9,51 @@ export const products = [
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM",
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM"
     ],
+    "description": "",
     "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Buquê de Tulipas Naturais",
+    "price": 119.99,
+    "oldPrice": 180.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp"
+    ],
+    "description": "",
+    "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Café da Manhã CASAL (caixote claro)",
+    "price": 159.00,
+    "oldPrice": 199.99,
+    "images": [
+      "https://julianafloricultura.com/wp-content/uploads/2025/06/933dad2195301ca4af1cb56761a2fc32.webp",
+    ],
+    "description": "",
+    "id": 245478950040714,
     "shipping": false,
     "isOnSale": false,
     "inStock": true,
@@ -25,9 +71,10 @@ export const products = [
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-2.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/Screenshot_15.webp",
       "https://mundodasflores.com/wp-content/uploads/2025/04/alta-274-2-1.webp"
     ],
+    "description": "",
     "id": 20040714,
     "shipping": false,
     "isOnSale": false,
@@ -41,7 +88,49 @@ export const products = [
       "Buquês"
     ]
   },
-  {
+    {
+    "title": "Cesta O Amor Está no Ar, Trio de Rosas + Ursinho + Chocolates",
+    "price": 99.99,
+    "oldPrice": 119.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/dia-dos-namorados-site-2024-3-44794ee2c60d15913017327334655506-1024-1024.png",
+    ],
+    "description": "",
+    "id": 231200007114,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+     {
+    "title": "Buque 12 Rosas Vermelhas e Caixa de bombom",
+    "price": 79.99,
+    "oldPrice": 119.99,
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTeL2N3MWyI43rtWFXyK6fFsVNvT9I0ePVotUeskTF_VchPDVfopBIp5Lxcx37_1CDgLcmMVXt7GjuydXovH0jXn8mvGCz-MyBqKZUozE9rXyuTZm3QFA-JBg",
+    ],
+    "description": "",
+    "id": 200400909714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia dos Namorados",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+    {
     "title": "Caixa Cesta de Coração - Dia dos Namorados",
     "price": 109.99,
     "oldPrice": 200.99,
@@ -49,6 +138,7 @@ export const products = [
       "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810",
       "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810"
     ],
+    "description": "",
     "id": 20040112714,
     "shipping": false,
     "isOnSale": false,
@@ -62,7 +152,7 @@ export const products = [
       "Buquês"
     ]
   },
-  {
+   {
     "title": "Kit Presente Cesta - Dia dos Namorados ",
     "price": 119.99,
     "oldPrice": 205.99,
@@ -70,6 +160,7 @@ export const products = [
       "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png",
       "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png"
     ],
+    "description": "",
     "id": 2004075514,
     "shipping": false,
     "isOnSale": false,
@@ -84,6 +175,308 @@ export const products = [
     ]
   },
   {
+    "title": "Cesta de Aniversário com chocolate e Flor",
+    "price": 129.99,
+    "oldPrice": 200.19,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672153_181a97f33de5d07fe6f9.webp.webp",
+    ],
+    "description": "",
+    "id": 60000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Kit De Presente para mãe Dia Das Mães Almofada Caneca Cartão – Sude",
+    "price": 139.99,
+    "oldPrice": 215.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/01ebc997e810f0307a06a79948cbe40c.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/597b290b2b4ed5894b26c9b357a859c1.webp"
+    ],
+    "description": "",
+    "id": 50000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Presente Dia das Mães com Flor e Chocolate",
+    "price": 75.99,
+    "oldPrice": 150.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/Presente-Dia-das-Maes-com-Flor-e-Chocolate.jpeg.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/floricultura-joinville-rosa-chocolate1.jpeg.webp"
+    ],
+    "description": "",
+    "id": 300010714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "CESTA DIA DAS MÃES",
+    "price": 119.99,
+    "oldPrice": 220.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/design-sem-nome-2023-05-06t092710-0471-5a9a57b9d5322f4a3c16838075406295-1024-1024.webp",
+    ],
+    "description": "",
+    "id": 200007114,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Linda Margaridinha Plantada e Chocolate Suflair",
+    "price": 98.99,
+    "oldPrice": 118.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/29671gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/29671gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 20000614,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Mega Buquê de 100 Rosas Colombianas Vermelhas",
+    "price": 559.99,
+    "oldPrice": 1859.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/27661gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/27661gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 30000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+    {
+    "title": "Buquê de Girassóis Noite Estrelada Van Gogh",
+    "price": 120.99,
+    "oldPrice": 200.99,
+    "images": [
+      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp",
+      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp"
+    ],
+    "description": "",
+    "id": 30003300714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Buquê de 30 Rosas Azuis com Gypsophila",
+    "price": 139.99,
+    "oldPrice": 325.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/30948gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/30948gg2.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 20000714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Kit de Vinho e Chocolate Especial",
+    "price": 109.99,
+    "oldPrice": 238.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/28182gg.jpg?ims=600x600",
+      "https://static.giulianaflores.com.br/images/product/28182gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 20000710,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Buquê de 50 Rosas Vermelhas",
+    "price": 259.99,
+    "oldPrice": 575.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/26148gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/26148gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2000078,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Buquê Carinho de Rosas Pink",
+    "price": 99.99,
+    "oldPrice": 219.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/21823gg2.jpg?ims=600x600",
+    ],
+    "description": "",
+    "id": 2000074,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+  {
+    "title": "Cesta de Chocolate Pra Quem Merece",
+    "price": 99.99,
+    "oldPrice": 209.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/29894gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/29894gg2.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2000076,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+    ]
+  },
+  {
+    "title": "Cesta Luxo Doce Dia",
+    "price": 129.99,
+    "oldPrice": 398.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/15774gg.jpg?ims=600x600",
+      "https://static.giulianaflores.com.br/images/product/15774gg3.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2000075,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+    ]
+  },
+  {
+    "title": "Buquê Partitura Girassol",
+    "price": 79.99,
+    "oldPrice": 199.99,
+    "images": [
+      "https://static.giulianaflores.com.br/images/product/32512gg.jpg?ims=405x405",
+      "https://static.giulianaflores.com.br/images/product/32512gg1.jpg?ims=600x600"
+    ],
+    "description": "",
+    "id": 2714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+    ]
+  },
+  {
     "title": "Buquê de 08 Rosas Colombianas Vermelhas",
     "price": 119.99,
     "oldPrice": 205,
@@ -91,6 +484,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/31095gg.jpg?ims=405x405",
       "https://static.giulianaflores.com.br/images/product/31095gg1.jpg?ims=600x600"
     ],
+    "description": "",
     "id": 11011,
     "shipping": false,
     "isOnSale": false,
@@ -113,6 +507,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/32169gg1.jpg?ims=600x600",
       "https://static.giulianaflores.com.br/images/product/32169gg3.jpg?ims=600x600"
     ],
+    "description": "",
     "id": 17011,
     "shipping": false,
     "isOnSale": false,
@@ -135,6 +530,7 @@ export const products = [
       "https://static.giulianaflores.com.br/images/product/24680gg.jpg?ims=405x405",
       "https://static.giulianaflores.com.br/images/product/24680gg1.jpg?ims=600x600"
     ],
+    "description": "",
     "id": 1000911,
     "shipping": false,
     "isOnSale": false,
@@ -154,9 +550,9 @@ export const products = [
     "price": 199.92999999999995,
     "oldPrice": 299.3107084307127,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-1.jpg"
     ],
+    "description": "",
     "id": 275,
     "shipping": true,
     "isOnSale": true,
@@ -174,9 +570,9 @@ export const products = [
     "price": 188.92999999999998,
     "oldPrice": 287.07257868946664,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-1.jpg"
     ],
+    "description": "",
     "id": 276,
     "shipping": false,
     "isOnSale": true,
@@ -194,9 +590,9 @@ export const products = [
     "price": 149.92999999999998,
     "oldPrice": 200.0200677465979,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-1.jpg"
     ],
+    "description": "",
     "id": 277,
     "shipping": true,
     "isOnSale": true,
@@ -210,12 +606,13 @@ export const products = [
     ]
   },
   {
-    "title": "Flor da Fortuna Laranja e Cesta com Ovo de Páscoa Sonho de Valsa e Bombons",
+    "title": "",
     "price": 99.93,
     "oldPrice": 198.40810187392108,
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54590-0.webp"
     ],
+    "description": "",
     "id": 278,
     "shipping": true,
     "isOnSale": false,
@@ -235,6 +632,7 @@ export const products = [
     "images": [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54589-0.webp"
     ],
+    "description": "",
     "id": 279,
     "shipping": false,
     "isOnSale": false,
@@ -255,6 +653,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54582-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54582-1.jpg"
     ],
+    "description": "",
     "id": 280,
     "shipping": true,
     "isOnSale": true,
@@ -275,6 +674,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54581-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54581-1.jpg"
     ],
+    "description": "",
     "id": 281,
     "shipping": true,
     "isOnSale": true,
@@ -295,6 +695,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54580-0_1.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54580-1_1.jpg"
     ],
+    "description": "",
     "id": 282,
     "shipping": false,
     "isOnSale": false,
@@ -315,6 +716,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54579-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54579-1.jpg"
     ],
+    "description": "",
     "id": 283,
     "shipping": true,
     "isOnSale": true,
@@ -335,6 +737,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54578-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54578-1.jpg"
     ],
+    "description": "",
     "id": 284,
     "shipping": false,
     "isOnSale": true,
@@ -355,6 +758,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54577-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54577-1.jpg"
     ],
+    "description": "",
     "id": 285,
     "shipping": true,
     "isOnSale": true,
@@ -375,6 +779,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54565-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54565-1.jpg"
     ],
+    "description": "",
     "id": 286,
     "shipping": true,
     "isOnSale": true,
@@ -395,6 +800,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54575-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54575-1.jpg"
     ],
+    "description": "",
     "id": 287,
     "shipping": true,
     "isOnSale": false,
@@ -415,6 +821,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54574-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54574-1.jpg"
     ],
+    "description": "",
     "id": 288,
     "shipping": true,
     "isOnSale": true,
@@ -435,6 +842,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54573-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54573-1.jpg"
     ],
+    "description": "",
     "id": 289,
     "shipping": true,
     "isOnSale": true,
@@ -455,6 +863,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54572-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54572-1.jpg"
     ],
+    "description": "",
     "id": 290,
     "shipping": false,
     "isOnSale": true,
@@ -475,6 +884,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54571-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54571-1.jpg"
     ],
+    "description": "",
     "id": 291,
     "shipping": false,
     "isOnSale": true,
@@ -495,6 +905,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54570-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54570-1.jpg"
     ],
+    "description": "",
     "id": 292,
     "shipping": true,
     "isOnSale": true,
@@ -515,6 +926,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54569-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54569-1.jpg"
     ],
+    "description": "",
     "id": 293,
     "shipping": false,
     "isOnSale": false,
@@ -535,6 +947,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54568-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54568-1.jpg"
     ],
+    "description": "",
     "id": 294,
     "shipping": false,
     "isOnSale": true,
@@ -555,6 +968,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54567-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54567-1.jpg"
     ],
+    "description": "",
     "id": 295,
     "shipping": false,
     "isOnSale": false,
@@ -575,6 +989,7 @@ export const products = [
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54566-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54566-1.jpg"
     ],
+    "description": "",
     "id": 296,
     "shipping": false,
     "isOnSale": true,
@@ -586,8 +1001,330 @@ export const products = [
     "tabFilterOptions2": [
       "Páscoa"
     ]
-  }
+  },
+  {
+    id: 1,
+    shipping: true,
+    title: "Buquê Fascínio - Rosas Colombianas Vermelhas",
+    price: 165.0,
+    oldPrice: 119.0,
+    images: ["/images/products/buque-fascino/img-1.webp", "/images/products/buque-fascino/img-2.webp"],
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Buquês"],
+    tabFilterOptions: ["Buquês", "Promoção", "Rosas"],
+    description: "Encante alguém especial com o Buquê Fascínio de Rosas Colombianas Vermelhas. Este arranjo luxuoso é composto por belas rosas vermelhas colombianas, conhecidas por sua durabilidade e pétalas exuberantes. Ideal para ocasiões românticas, aniversários e celebrações. Este buquê simboliza amor profundo e paixão, tornando-o um presente inesquecível.",
+  },
+  {
+    id: 2,
+    shipping: true,
+    title: "Rosa Encantada Vermelha e Urso - Box Love",
+    price: 99.0,
+    oldPrice: 198.0,
+    hotSale: true,
+    images: ["/images/products/rosa-encantada/img-1.webp", "/images/products/rosa-encantada/img-2.webp"],
+    isOnSale: true,
+    salePercentage: "25%",
+    inStock: false,
+    tabFilterOptions2: ["Novidades"],
+    tabFilterOptions: ["Rosas", "Presentes", "Novidades"],
+    description: "Presenteie alguém especial com a Rosa Encantada Vermelha e Urso no Box Love. Este lindo conjunto inclui uma rosa encantada, que dura por anos, simbolizando um amor eterno. Acompanhada de um adorável urso de pelúcia, esta caixa é perfeita para demonstrar seu carinho de maneira romântica e delicada. Ideal para ocasiões como aniversários, Dia dos Namorados ou para surpreender a pessoa amada.",
+  },
+  {
+    id: 3,
+    title: "Kit Degustação - Paulistânia Marco Zero",
+    price: 59.9,
+    oldPrice: 98.0,
+    images: ["/images/products/paulistania/img-1.webp", "/images/products/paulistania/img-2.webp"],
+    addToCart: "Adicionar Rápido",
+    countdown: 1007500,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção"],
+    tabFilterOptions: ["Bebidas", "Promoção", "Presentes"],
+    description: "Desfrute do melhor da cervejaria Paulistânia com o Kit Marco Zero, que inclui duas cervejas artesanais e uma taça especial. Ideal para apreciadores de cervejas que valorizam qualidade e sabor. Perfeito para presentear ou para momentos de degustação, o Kit Paulistânia Marco Zero proporciona uma experiência única e sofisticada no universo das cervejas artesanais.",
+  },
+  {
+    id: 4,
+    shipping: true,
+    title: "Lembrancinha Encanto - Mini Presente",
+    images: ["/images/products/lembrancinha/img-1.webp", "/images/products/lembrancinha/img-1.webp"],
+    price: 49.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Páscoa"],
+    tabFilterOptions: ["Presentes", "Promoção", "Lembrancinhas"],
+    description: "Ótima lembrança para ocasiões especiais. A Lembrancinha Encanto é ideal para não deixar a data passar em branco. Perfeita para presentear amigos e familiares em celebrações.",
+  },
+  {
+    id: 5,
+    shipping: true,
+    title: "Box Love - Corações Decorativos",
+    price: 49,
+    images: ["/images/products/box-love/img-1.webp", "/images/products/box-love/img-2.webp"],
+    inStock: true,
+    tabFilterOptions2: ["Novidades"],
+    tabFilterOptions: ["Presentes", "Promoção", "Novidades"],
+    description: "Surpreenda seu amor com o Box Love Corações, uma caixa elegante cheia de corações decorativos. Ideal para demonstrar afeto em ocasiões especiais, como aniversários, Dia dos Namorados ou qualquer outra data significativa. A Box Love Corações é uma maneira encantadora de mostrar seus sentimentos de forma criativa e inesquecível.",
+  },
+  {
+    id: 6,
+    shipping: true,
+    images: ["/images/products/rosas-vermelhas/img-1.webp", "/images/products/rosas-vermelhas/img-2.webp"],
+    title: "Rosas Vermelhas no Box Ilustrado - Amo Muito",
+    price: 109.99,
+    oldPrice: 269.0,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção"],
+    tabFilterOptions: ["Rosas", "Promoção", "Presentes"],
+    description: "Declare seu amor de maneira especial com as Rosas Vermelhas no Box Ilustrado Amo Muito. Este presente inclui uma caixa sofisticada com belas ilustrações e rosas vermelhas frescas. Ideal para ocasiões românticas, este arranjo floral transmite sentimentos profundos e sinceros. É a escolha perfeita para surpreender alguém especial.",
+  },
+  {
+    id: 7,
+    shipping: true,
+    images: ["/images/products/rosas-champanhe/img-1.webp", "/images/products/rosas-champanhe/img-2.webp"],
+    title: "Buquê Elegante - 18 Rosas Champanhe",
+    price: 89.99,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Buquês"],
+    tabFilterOptions: ["Rosas", "Buquês", "Promoção"],
+    description: "Celebre momentos especiais com o Buquê de 18 Rosas Champanhe. Este arranjo clássico e elegante é composto por 18 rosas champanhe, conhecidas por sua beleza e sofisticação. Perfeito para aniversários, casamentos, formaturas e outras ocasiões importantes. Surpreenda alguém especial com este presente inesquecível.",
+  },
+  {
+    id: 8,
+    shipping: true,
+    images: ["/images/products/cesta-aniversario/img-1.webp", "/images/products/cesta-aniversario/img-2.webp"],
+    title: "Cesta Festiva - Aniversário Mini Festa",
+    price: 63.99,
+    oldPrice: 128.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Comemore de maneira especial com a Cesta de Aniversário Mini Festa. Esta cesta festiva inclui uma seleção encantadora de itens de aniversário, perfeitos para tornar qualquer celebração ainda mais memorável. Com diversos mimos e surpresas, esta cesta é ideal para aniversários e outras ocasiões festivas.",
+  },
+  {
+    id: 9,
+    shipping: true,
+    images: ["/images/products/cesta-cafe/img-1.webp", "/images/products/cesta-cafe/img-2.webp"],
+    title: "Cesta de Café da Manhã - Bom Dia",
+    price: 99.99,
+    oldPrice: 128.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A Cesta de Café da Manhã Bom Dia é perfeita para surpreender alguém especial logo nas primeiras horas do dia. Contém uma seleção de produtos deliciosos, como queijo, geleia, bolachinhas, torradas, suco e frutas. Tudo cuidadosamente disposto em uma elegante cesta de vime com alça, tornando o presente ainda mais especial.",
+  },
+  {
+    id: 10,
+    shipping: true,
+    title: "Balde Green Heineken com Petiscos - Cerveja, Balde Personalizado, Petiscos, Presente",
+    images: ["/images/products/balde-green/img-1.webp", "/images/products/balde-green/img-1.webp"],
+    price: 95.0,
+    oldPrice: 129.0,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Bebidas", "Presentes", "Promoção"],
+    description: "O Balde Green Heineken com Petiscos é perfeito para apreciadores de cerveja. Inclui um elegante balde personalizado da Heineken e uma seleção de petiscos deliciosos. Ideal para curtir com amigos ou presentear alguém especial.",
+  },
+  {
+    id: 11,
+    shipping: true,
+    title: "Cesta Coração 400g - Chocolates Finos, Bombons Sortidos, Presente Romântico",
+    images: ["/images/products/cesta-coracao/img-1.webp", "/images/products/cesta-coracao/img-1.webp"],
+    price: 79.0,
+    oldPrice: 138.0,
+    hotSale: true,
+    isOnSale: true,
+    salePercentage: "25%",
+    inStock: false,
+    tabFilterOptions2: ["Novidades", "Cestas", "Páscoa"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Encantadora cesta em formato de coração com uma seleção especial de chocolates finos: bombons sortidos, mini corações crocantes, Di Gattto ao leite e muito mais. Presente perfeito para ocasiões românticas e especiais.",
+  },
+  {
+    id: 12,
+    title: "Cesta Chocolates G e Caneca - Presente Gourmet, Chocolates Finos, Caneca Especial",
+    images: ["/images/products/cesta-chocolates/img-1.webp", "/images/products/cesta-chocolates/img-1.webp"],
+    price: 99.9,
+    oldPrice: 148.0,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A Cesta Chocolates G é ideal para amantes de chocolate. Inclui uma caneca especial e uma deliciosa seleção de chocolates finos como Ferrero Rocher, Nutella e bombons sortidos. Perfeita para surpreender com doçura.",
+  },
+  {
+    id: 13,
+    shipping: true,
+    title: "Cesta Carinho com Chocolates e Balão Coração - Presente Romântico, Chocolates Finos, Ocasiões Especiais",
+    images: ["/images/products/cesta-carinhos/img-1.webp", "/images/products/cesta-carinhos/img-1.webp"],
+    price: 129,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A Cesta Carinho combina chocolates finos com um charmoso balão de coração, tornando-se o presente ideal para aniversários, Dia dos Namorados ou qualquer momento especial.",
+  },
+  {
+    id: 14,
+    shipping: true,
+    title: "Cesta de Chocolates Diversos - Bombons, Trufas, Chocolates ao Leite, Presente",
+    images: ["/images/products/cesta-diversos/img-1.webp", "/images/products/cesta-diversos/img-1.webp"],
+    price: 109.99,
+    oldPrice: 169.0,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas", "Páscoa"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A Cesta de Chocolates Diversos contém uma seleção irresistível de bombons, trufas e chocolates ao leite, perfeitos para os apaixonados por doces. Um presente encantador para qualquer ocasião.",
+  },
+  {
+    title: "Buquê de 8 Rosas Brancas, Chocolate e Pelúcia",
+    price: 80.0,
+    images: ["https://www.isabelaflores.com/media/catalog/product/a/l/alta-370-1.webp", "https://www.isabelaflores.com/media/catalog/product/a/l/alta-370-0.jpg"],
+    id: 178,
+    description: "",
+    oldPrice: 160.5319866780146,
+    shipping: false,
+    isOnSale: true,
+    inStock: false,
+    tabFilterOptions: [],
+    tabFilterOptions2: ["Páscoa"],
+  },
+  {
+    title: "Cesta de Chocolate e Pelúcia",
+    price: 166.53,
+    images: ["https://www.isabelaflores.com/media/catalog/product/a/l/alta-280-0.webp", "https://www.isabelaflores.com/media/catalog/product/a/l/alta-280-2.jpg"],
+    id: 219,
+    description: "",
+    oldPrice: 235.86923070759892,
+    shipping: true,
+    isOnSale: false,
+    inStock: false,
+    tabFilterOptions: [],
+    tabFilterOptions2: ["Novidades", "Páscoa"],
+  },
+  {
+    id: 15,
+    shipping: true,
+    title: "Baú de Chocolate com Flores e Pelúcia - Presente Doce, Chocolates Finos, Pelúcia Encantadora",
+    images: ["/images/products/bau-chocolate/img-1.webp", "/images/products/bau-chocolate/img-1.webp"],
+    price: 91.99,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "O Baú de Chocolate com Flores e Pelúcia é o presente perfeito para surpreender com doçura e carinho. Contém uma seleção especial de chocolates finos, um arranjo delicado de flores e uma pelúcia encantadora. Ideal para expressar amor e ternura.",
+  },
+  {
+    id: 16,
+    shipping: true,
+    title: "Cesta Feliz Aniversário - Chocolates, Biscoitos, Bombons, Presente Especial",
+    images: ["/images/products/feliz-aniversario/img-1.webp", "/images/products/feliz-aniversario/img-1.webp"],
+    price: 109.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Comemore com a Cesta Feliz Aniversário! Contém chocolates, biscoitos, bombons e outros mimos especiais para tornar a data inesquecível. Perfeita para presentear e alegrar o dia de alguém querido.",
+  },
+  {
+    id: 17,
+    shipping: true,
+    title: "Cesta Média de Chocolates - Seleção Sortida, Presente Encantador, Chocolates Finos",
+    images: ["/images/products/cesta-media/img-1.webp", "/images/products/cesta-media/img-1.webp"],
+    price: 99.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas", "Páscoa"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Surpreenda alguém especial com a Cesta Média de Chocolates. Contém uma deliciosa seleção de chocolates sortidos, perfeita para adoçar qualquer ocasião. Um presente encantador para os amantes de chocolate.",
+  },
+  {
+    id: 18,
+    shipping: true,
+    title: "Baú com Chocolates Sortidos - Presente Gourmet, Barra de Chocolate, Bombons",
+    images: ["/images/products/bau-sortido/img-1.webp", "/images/products/bau-sortido/img-1.webp"],
+    price: 73.99,
+    isOnSale: false,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "O Baú com Chocolates Sortidos contém uma variedade deliciosa de chocolates, incluindo Barra de Chocolate Ao Leite com Frutas Secas, Maçã recheada com Creme de Avelã, Di Gatto ao leite e bombons sortidos embrulhados.",
+  },
+
+  {
+    id: 19,
+    shipping: true,
+    title: "Caixa Mimo de Menina - Presente Personalizado, Aniversário, Balões",
+    images: ["/images/products/caixa-mimo/img-1.webp", "/images/products/caixa-mimo/img-1.webp"],
+    price: 109.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A opção perfeita para presentear um aniversariante especial! Linda caixa personalizada com o nome da pessoa presenteada e balões. Ideal para surpreender e encantar.",
+  },
+  {
+    id: 20,
+    shipping: true,
+    title: "Cesta com Chocolates e Flores Floranna - Presentes, Chocolates Sortidos, Surpresa Especial",
+    images: ["/images/products/flores-mariana/img-1.webp", "/images/products/flores-mariana/img-1.webp"],
+    price: 100.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Surpreenda alguém especial com a Cesta com Chocolates e Flores Floranna. Contém uma deliciosa seleção de chocolates sortidos e flores encantadoras, perfeita para adoçar qualquer ocasião.",
+  },
+  {
+    id: 21,
+    shipping: true,
+    title: "Cesta Retangular - Bombons Sortidos, Chocolates Finos, Presente Gourmet",
+    images: ["/images/products/cesta-retangular/img-1.webp", "/images/products/cesta-retangular/img-1.webp"],
+    price: 119.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "A Cesta Retangular contém uma seleção deliciosa: 01 barrinha ao leite, 01 saquinho de biju ao leite, 01 caixa de Língua Di Gatto, 01 coração crocante pequeno e bombons sortidos. Perfeita para presentear.",
+  },
+  {
+    id: 22,
+    shipping: true,
+    title: "Kit Gin Tônica Preto 8 Especiarias - Presente Elegante, Especiarias, Drinks Aromáticos",
+    images: ["/images/products/kit-gin/img-1.webp", "/images/products/kit-gin/img-1.webp"],
+    price: 99.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Novidades", "Promoção"],
+    tabFilterOptions: ["Presentes", "Promoção"],
+    description: "O Kit Gin Tônica Preto 8 Especiarias é uma opção elegante e completa para apreciadores de drinks. Inclui uma caixa de MDF preta com acabamento em laca, e uma caixinha de especiarias em acrílico transparente. Contém oito especiarias diferentes, proporcionando um sabor único ao seu gin tônica. Ideal para presentear ou uso pessoal.",
+  },
+  {
+    id: 23,
+    shipping: true,
+    title: "Box De Luxo Você É Especial - Vinho, Ferrero Rocher, Arranjo de Girassol, Presente de Luxo",
+    images: ["/images/products/box-de-luxo/img-1.webp", "/images/products/box-de-luxo/img-1.webp"],
+    price: 104.99,
+    oldPrice: 198.0,
+    isOnSale: true,
+    inStock: true,
+    tabFilterOptions2: ["Promoção", "Cestas"],
+    tabFilterOptions: ["Presentes", "Cestas", "Promoção"],
+    description: "Este magnífico Box De Luxo Você é Especial é composto por uma garrafa de vinho, um sofisticado Ferrero Rocher e um deslumbrante arranjo de girassol fresco e vibrante. Perfeito para proporcionar uma experiência única e memorável.",
+  },
 ];
+
 export const presentes = [
   {
     id: 24,
