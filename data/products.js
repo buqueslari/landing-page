@@ -35,8 +35,8 @@ export const products = [
     "tabFilterOptions2": [
       "Dia dos Namorados",
       "Buquês"
-    ]
-  },
+    ],
+    
       {
     "title": "Café da Manhã CASAL (caixote claro)",
     "price": 159.00,
