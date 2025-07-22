@@ -110,11 +110,11 @@ export const products = [
     ]
   },
      {
-    "title": "Buque 12 Rosas Vermelhas e Caixa de bombom",
+    "title": "Arranjo com Girassóis – Presente Especial",
     "price": 89.99,
     "oldPrice": 119.99,
     "images": [
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTeL2N3MWyI43rtWFXyK6fFsVNvT9I0ePVotUeskTF_VchPDVfopBIp5Lxcx37_1CDgLcmMVXt7GjuydXovH0jXn8mvGCz-MyBqKZUozE9rXyuTZm3QFA-JBg",
+      "https://floreshelena.com.br/wp-content/uploads/2024/09/1000001643.jpg",
     ],
     "description": "",
     "id": 200400909714,
@@ -179,7 +179,7 @@ export const products = [
     "price": 129.99,
     "oldPrice": 200.19,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672153_181a97f33de5d07fe6f9.webp.webp",
+      "https://floreshelena.com.br/wp-content/uploads/2024/12/1734672153_181a97f33de5d07fe6f9.webp.webp",
     ],
     "description": "",
     "id": 60000714,
