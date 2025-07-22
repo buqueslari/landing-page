@@ -28,8 +28,8 @@ export const products = [
     "price": 119.99,
     "oldPrice": 180.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672420_41321841677b12d0072a.webp.webp"
+      "https://cdn.awsli.com.br/800x800/686/686122/produto/212763586/buque-de-tulipas-xeooeh.jpg",
+      "https://cdn.awsli.com.br/800x800/686/686122/produto/212763586/buque-de-tulipas-xeooeh.jpg"
     ],
     "description": "",
     "id": 245450040714,
