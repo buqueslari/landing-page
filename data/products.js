@@ -50,7 +50,7 @@ export const products = [
     "price": 159.00,
     "oldPrice": 199.99,
     "images": [
-      "https://julianafloricultura.com/wp-content/uploads/2025/06/933dad2195301ca4af1cb56761a2fc32.webp",
+      "https://floreshelena.com.br/wp-content/uploads/2024/09/cafe-da-manha-casal-clara-flores-de-lado.webp",
     ],
     "description": "",
     "id": 245478950040714,
@@ -71,8 +71,8 @@ export const products = [
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/Screenshot_15.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/alta-274-2-1.webp"
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-1.webp"
     ],
     "description": "",
     "id": 20040714,
@@ -89,11 +89,11 @@ export const products = [
     ]
   },
     {
-    "title": "Cesta O Amor Está no Ar, Trio de Rosas + Ursinho + Chocolates",
-    "price": 99.99,
-    "oldPrice": 119.99,
+    "title": "Cesta especial para presente com arranjo de rosas, pelúcia e chocolates",
+    "price": 120.99,
+    "oldPrice": 179.99,
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/dia-dos-namorados-site-2024-3-44794ee2c60d15913017327334655506-1024-1024.png",
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/10/IMG-20211018-WA0066.jpg",
     ],
     "description": "",
     "id": 231200007114,
@@ -111,7 +111,7 @@ export const products = [
   },
      {
     "title": "Buque 12 Rosas Vermelhas e Caixa de bombom",
-    "price": 79.99,
+    "price": 89.99,
     "oldPrice": 119.99,
     "images": [
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTeL2N3MWyI43rtWFXyK6fFsVNvT9I0ePVotUeskTF_VchPDVfopBIp5Lxcx37_1CDgLcmMVXt7GjuydXovH0jXn8mvGCz-MyBqKZUozE9rXyuTZm3QFA-JBg",
@@ -196,12 +196,12 @@ export const products = [
     ]
   },
   {
-    "title": "Kit De Presente para mãe Dia Das Mães Almofada Caneca Cartão – Sude",
+    "title": "Cesta café da manhã ou da tarde com Rosas",
     "price": 139.99,
     "oldPrice": 215.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/01ebc997e810f0307a06a79948cbe40c.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/597b290b2b4ed5894b26c9b357a859c1.webp"
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg",
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg"
     ],
     "description": "",
     "id": 50000714,
@@ -218,12 +218,12 @@ export const products = [
     ]
   },
   {
-    "title": "Presente Dia das Mães com Flor e Chocolate",
-    "price": 75.99,
+    "title": "Cesta de Chocolates Variados com Pelúcia Grande",
+    "price": 120.99,
     "oldPrice": 150.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/Presente-Dia-das-Maes-com-Flor-e-Chocolate.jpeg.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/floricultura-joinville-rosa-chocolate1.jpeg.webp"
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/03/cesta-com-pelucia-G-e-chocolates-220trans-600x750.png",
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/03/cesta-com-pelucia-G-e-chocolates-220trans-600x750.png"
     ],
     "description": "",
     "id": 300010714,
@@ -240,11 +240,11 @@ export const products = [
     ]
   },
   {
-    "title": "CESTA DIA DAS MÃES",
+    "title": "Cesta de Chocolates Variados com Pelúcia, Rosas e Balão",
     "price": 119.99,
     "oldPrice": 220.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/design-sem-nome-2023-05-06t092710-0471-5a9a57b9d5322f4a3c16838075406295-1024-1024.webp",
+      "https://josifloresecestas.com.br/wp-content/uploads/2025/01/IMG-20250129-WA0106.jpg",
     ],
     "description": "",
     "id": 200007114,
@@ -309,8 +309,8 @@ export const products = [
     "price": 120.99,
     "oldPrice": 200.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/32080gg1.webp"
+      "https://rosasdacarolina.com.br/wp-content/uploads/2025/05/12.png",
+      "https://rosasdacarolina.com.br/wp-content/uploads/2025/05/12.png"
     ],
     "description": "",
     "id": 30003300714,
