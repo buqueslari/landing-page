@@ -2,7 +2,7 @@ import { isabelaflores } from "./isabelaflores";
 
 export const products = [
     {
-    "title": "Cesta Café da Manhã Amor de Namorado",
+    "title": "Cesta Café da Manhã - Amor Você",
     "price": 119.99,
     "oldPrice": 199.99,
     "images": [
@@ -131,7 +131,7 @@ export const products = [
     ]
   },
     {
-    "title": "Caixa Cesta de Coração - Dia dos Namorados",
+    "title": "Caixa Cesta de Coração - Premium",
     "price": 109.99,
     "oldPrice": 200.99,
     "images": [
@@ -153,7 +153,7 @@ export const products = [
     ]
   },
    {
-    "title": "Kit Presente Cesta - Dia dos Namorados ",
+    "title": "Kit Presente Cesta - Premium ",
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
