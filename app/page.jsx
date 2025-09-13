@@ -10,8 +10,8 @@ import Header2 from "@/components/headers/Header2";
 import Collections from "@/components/homes/home-1/Collections";
 
 export const metadata = {
-  title: "Lari Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
-  description: "A Lari Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+  title: "day flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+  description: "A day flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#FFFFFF",
   icons: {
@@ -19,10 +19,10 @@ export const metadata = {
   },
   openGraph: {
     locale: "pt-BR",
-    title: "Lari Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
-    siteName: "Lari Flores",
+    title: "day flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+    siteName: "day flores",
     type: "website",
-    description: "A Lari Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+    description: "A day flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
     url: "https://www.buquesdalari.com.br/",
     images: [
       {
@@ -33,8 +33,8 @@ export const metadata = {
   alternates: {
     canonical: "https://www.buquesdalari.com.br/",
   },
-  keywords: ["Lari Flores", "Lari Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
-  authors: [{ name: "Lari Flores", url: "https://www.buquesdalari.com.br/" }],
+  keywords: ["day flores", "Lari Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
+  authors: [{ name: "day flores", url: "https://www.buquesdalari.com.br/" }],
 };
 export default function Home() {
   return (
