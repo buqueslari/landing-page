@@ -983,7 +983,7 @@ export const collectionItems6 = [
     id: 3,
     imgSrc: "/images/collections/cls-electronic-3.jpg",
     title: "Smart Speaker",
-    description: "Google home smart speaker with google assistant",
+    description: "daycestas.com.br home smart speaker with daycestas.com.br assistant",
     wowDelay: "0.2s",
   },
 ];

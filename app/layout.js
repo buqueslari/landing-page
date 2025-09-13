@@ -122,17 +122,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Manager Script */}
+        {/* daycestas.com.br Tag Manager Script */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17037088127"
+          src="https://www.daycestas.com.brtagmanager.com/gtag/js?id=AW-17468128132"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="daycestas.com.br-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17037088127');
+            gtag('config', 'AW-17468128132');
           `}
         </Script>
       </head>
