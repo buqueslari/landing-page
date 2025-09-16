@@ -50,7 +50,7 @@ export const products = [
     "price": 159.00,
     "oldPrice": 199.99,
     "images": [
-      "https://floreshelena.com.br/wp-content/uploads/2024/09/cafe-da-manha-casal-clara-flores-de-lado.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-283-3.webp",
     ],
     "description": "",
     "id": 245478950040714,
@@ -114,7 +114,7 @@ export const products = [
     "price": 89.99,
     "oldPrice": 119.99,
     "images": [
-      "https://floreshelena.com.br/wp-content/uploads/2024/09/1000001643.jpg",
+      "https://static.giulianaflores.com.br/images/product/rs-2087-4462-0.jpg?ims=405x405",
     ],
     "description": "",
     "id": 200400909714,
@@ -179,7 +179,7 @@ export const products = [
     "price": 129.99,
     "oldPrice": 200.19,
     "images": [
-      "https://floreshelena.com.br/wp-content/uploads/2024/12/1734672153_181a97f33de5d07fe6f9.webp.webp",
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/06/IMG-20210603-WA01242.jpg",
     ],
     "description": "",
     "id": 60000714,
@@ -309,8 +309,8 @@ export const products = [
     "price": 120.99,
     "oldPrice": 200.99,
     "images": [
-      "https://rosasdacarolina.com.br/wp-content/uploads/2025/05/12.png",
-      "https://rosasdacarolina.com.br/wp-content/uploads/2025/05/12.png"
+      "https://www.floriculturaviladasflores.com.br/media/catalog/product/B/u/Buqu_de_Flores_A_noite_estrelada_Van_Gogh_4.webp",
+      "https://www.floriculturaviladasflores.com.br/media/catalog/product/B/u/Buqu_de_Flores_A_noite_estrelada_Van_Gogh_4.webp"
     ],
     "description": "",
     "id": 30003300714,
