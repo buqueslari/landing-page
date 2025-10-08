@@ -983,7 +983,7 @@ export const collectionItems6 = [
     id: 3,
     imgSrc: "/images/collections/cls-electronic-3.jpg",
     title: "Smart Speaker",
-    description: "daycestas.com.br home smart speaker with daycestas.com.br assistant",
+    description: "floresrafaella.shop home smart speaker with floresrafaella.shop assistant",
     wowDelay: "0.2s",
   },
 ];
