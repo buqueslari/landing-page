@@ -196,12 +196,12 @@ export const products = [
     ]
   },
   {
-    "title": "Cesta café da manhã ou da tarde com Rosas",
-    "price": 139.99,
-    "oldPrice": 215.99,
+    "title": "Arranjo com 6 Hastes de Lírios Brancos",
+    "price": 119.99,
+    "oldPrice": 200.99,
     "images": [
-      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg",
-      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg"
+      "https://rafaelaflores.com/wp-content/uploads/2024/12/1734672715_23bbee9dee17bf3abc31.webp.webp",
+      "https://rafaelaflores.com/wp-content/uploads/2024/12/1734672715_23bbee9dee17bf3abc31.webp.webp"
     ],
     "description": "",
     "id": 50000714,
