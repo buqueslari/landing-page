@@ -175,11 +175,11 @@ export const products = [
     ]
   },
   {
-    "title": "Cesta de Aniversário com chocolate e Flor",
-    "price": 129.99,
+    "title": "Buquê de 12 Rosas com Ferrero Rocher",
+    "price": 119.99,
     "oldPrice": 200.19,
     "images": [
-      "https://josifloresecestas.com.br/wp-content/uploads/2021/06/IMG-20210603-WA01242.jpg",
+      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3258.jpg",
     ],
     "description": "",
     "id": 60000714,
