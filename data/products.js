@@ -131,12 +131,12 @@ export const products = [
     ]
   },
     {
-    "title": "Caixa Cesta de Coração - Premium",
+    "title": "Buquê com 12 Rosas Cor de Rosa Kraft",
     "price": 109.99,
     "oldPrice": 200.99,
     "images": [
-      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810",
-      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810"
+      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3014.jpg",
+      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3014.jpg"
     ],
     "description": "",
     "id": 20040112714,
@@ -153,12 +153,12 @@ export const products = [
     ]
   },
    {
-    "title": "Kit Presente Cesta - Premium ",
-    "price": 119.99,
+    "title": "Buquê com 12 Rosas Amarelas Kraft",
+    "price": 108.99,
     "oldPrice": 205.99,
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png",
-      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png"
+      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3316-1.jpg",
+      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3316-1.jpg"
     ],
     "description": "",
     "id": 2004075514,
