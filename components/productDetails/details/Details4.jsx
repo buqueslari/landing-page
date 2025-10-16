@@ -162,7 +162,7 @@ export default function Details4({ product = allProducts[0] }) {
                               </div>
                               <div className="line-bt" />
                               <div>
-                                <h6>Fashion Rafaella Buquês</h6>
+                                <h6>Fashion Eduarda Buquês</h6>
                                 <p>Pickup available. Usually ready in 24 hours</p>
                               </div>
                               <div>
@@ -180,7 +180,7 @@ export default function Details4({ product = allProducts[0] }) {
                         </li>
                         <li>
                           <p className="text-caption-1">Vendor:</p>
-                          <p className="text-caption-1 text-1">Rafaella Buquês</p>
+                          <p className="text-caption-1 text-1">Eduarda Buquês</p>
                         </li>
                         <li>
                           <p className="text-caption-1">Available:</p>
