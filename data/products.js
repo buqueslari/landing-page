@@ -2,7 +2,7 @@ import { isabelaflores } from "./isabelaflores";
 
 export const products = [
     {
-    "title": "Cesta Café da Manhã - Amor Você",
+    "title": "Cesta Café da Manhã - Amo Você",
     "price": 119.99,
     "oldPrice": 199.99,
     "images": [
@@ -50,7 +50,7 @@ export const products = [
     "price": 159.00,
     "oldPrice": 199.99,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-283-3.webp",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/13-59b1d815da1f17cd8117508852278266-1024-1024.webp",
     ],
     "description": "",
     "id": 245478950040714,
@@ -114,7 +114,7 @@ export const products = [
     "price": 89.99,
     "oldPrice": 119.99,
     "images": [
-      "https://static.giulianaflores.com.br/images/product/rs-2087-4462-0.jpg?ims=405x405",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/lotus-presentes-buques-10-b7ba9b22d770c37a5317508013423220-1024-1024.webp",
     ],
     "description": "",
     "id": 200400909714,
@@ -131,12 +131,12 @@ export const products = [
     ]
   },
     {
-    "title": "Buquê com 12 Rosas Cor de Rosa Kraft",
+    "title": "Caixa Cesta de Coração - Premium",
     "price": 109.99,
     "oldPrice": 200.99,
     "images": [
-      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3014.jpg",
-      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3014.jpg"
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810",
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810"
     ],
     "description": "",
     "id": 20040112714,
@@ -153,12 +153,12 @@ export const products = [
     ]
   },
    {
-    "title": "Buquê com 12 Rosas Amarelas Kraft",
-    "price": 108.99,
+    "title": "Kit Presente Cesta - Premium ",
+    "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3316-1.jpg",
-      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3316-1.jpg"
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png",
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png"
     ],
     "description": "",
     "id": 2004075514,
@@ -175,11 +175,11 @@ export const products = [
     ]
   },
   {
-    "title": "Buquê de 12 Rosas com Ferrero Rocher",
-    "price": 119.99,
+    "title": "Cesta de Aniversário com chocolate e Flor",
+    "price": 129.99,
     "oldPrice": 200.19,
     "images": [
-      "https://rafaelaflores.com/wp-content/uploads/2024/09/600_3258.jpg",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/imagens-novo-site-lotus-16856f478b6b71081817325477312895-1024-1024.webp",
     ],
     "description": "",
     "id": 60000714,
@@ -196,12 +196,12 @@ export const products = [
     ]
   },
   {
-    "title": "Arranjo com 6 Hastes de Lírios Brancos",
-    "price": 119.99,
-    "oldPrice": 200.99,
+    "title": "Cesta café da manhã ou da tarde com Rosas",
+    "price": 139.99,
+    "oldPrice": 215.99,
     "images": [
-      "https://rafaelaflores.com/wp-content/uploads/2024/12/1734672715_23bbee9dee17bf3abc31.webp.webp",
-      "https://rafaelaflores.com/wp-content/uploads/2024/12/1734672715_23bbee9dee17bf3abc31.webp.webp"
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg",
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg"
     ],
     "description": "",
     "id": 50000714,
@@ -309,8 +309,8 @@ export const products = [
     "price": 120.99,
     "oldPrice": 200.99,
     "images": [
-      "https://www.floriculturaviladasflores.com.br/media/catalog/product/B/u/Buqu_de_Flores_A_noite_estrelada_Van_Gogh_4.webp",
-      "https://www.floriculturaviladasflores.com.br/media/catalog/product/B/u/Buqu_de_Flores_A_noite_estrelada_Van_Gogh_4.webp"
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/trio-de-girassois-noite-estrelada-1c41c9df5063fae27c17379915989652-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/trio-de-girassois-noite-estrelada-1c41c9df5063fae27c17379915989652-1024-1024.webp"
     ],
     "description": "",
     "id": 30003300714,
