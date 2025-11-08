@@ -10,8 +10,8 @@ import Header2 from "@/components/headers/Header2";
 import Collections from "@/components/homes/home-1/Collections";
 
 export const metadata = {
-  title: "Eduarda Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
-  description: "A Eduarda Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+  title: "Dayane Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+  description: "A Dayane Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#FFFFFF",
   icons: {
@@ -19,11 +19,11 @@ export const metadata = {
   },
   openGraph: {
     locale: "pt-BR",
-    title: "Eduarda Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
-    siteName: "Eduarda Flores",
+    title: "Dayane Flores - Flores Online, 70% Off + Entrega em 1h + Frete Grátis",
+    siteName: "Dayane Flores",
     type: "website",
-    description: "A Eduarda Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
-    url: "https://www.floresEduarda.shop/",
+    description: "A Dayane Flores é uma floricultura especializada em buquês personalizados e arranjos florais para todas as ocasiões. Encante-se com a beleza das nossas flores!",
+    url: "https://www.floresDayane.shop/",
     images: [
       {
         url: "/images/logo/logo.png",
@@ -31,10 +31,10 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.floresEduarda.shop/",
+    canonical: "https://www.floresDayane.shop/",
   },
-  keywords: ["Eduarda Flores", "Eduarda Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
-  authors: [{ name: "Eduarda Flores", url: "https://www.floresEduarda.shop/" }],
+  keywords: ["Dayane Flores", "Dayane Buquês", "Floricultura", "Flores", "Buquês", "Arranjos florais", "São Paulo", "SP", "Presentes", "Casamentos", "Eventos", "Decoração", "Flores frescas", "Rosas", "Orquídeas", "Entrega de flores"],
+  authors: [{ name: "Dayane Flores", url: "https://www.floresDayane.shop/" }],
 };
 export default function Home() {
   return (

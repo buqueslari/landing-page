@@ -5,8 +5,8 @@ import Testimonials2 from "@/components/otherPages/Testimonials2";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Customer Feedback || Eduarda Buquês - Multipurpose React Nextjs eCommerce Template",
-  description: "Eduarda Buquês - Multipurpose React Nextjs eCommerce Template",
+  title: "Customer Feedback || Dayane Buquês - Multipurpose React Nextjs eCommerce Template",
+  description: "Dayane Buquês - Multipurpose React Nextjs eCommerce Template",
 };
 
 export default function page() {
