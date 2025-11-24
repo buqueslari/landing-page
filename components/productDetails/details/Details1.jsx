@@ -192,7 +192,7 @@ export default function Details1({ product }) {
                             </div>
                             <div className="line-bt" />
                             <div>
-                              <h6>Dayane Flores</h6>
+                              <h6>Marcela Flores</h6>
                               <p>Geralmente fica pronto em 24 horas</p>
                             </div>
                             <div>
@@ -210,7 +210,7 @@ export default function Details1({ product }) {
                       </li>
                       <li>
                         <p className="text-caption-1">Vendor:</p>
-                        <p className="text-caption-1 text-1">Dayane Flores</p>
+                        <p className="text-caption-1 text-1">Marcela Flores</p>
                       </li>
                       <li>
                         <p className="text-caption-1">Available:</p>

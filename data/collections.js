@@ -983,7 +983,7 @@ export const collectionItems6 = [
     id: 3,
     imgSrc: "/images/collections/cls-electronic-3.jpg",
     title: "Smart Speaker",
-    description: "floresDayane.shop home smart speaker with floresDayane.shop assistant",
+    description: "floresMarcela.shop home smart speaker with floresMarcela.shop assistant",
     wowDelay: "0.2s",
   },
 ];
