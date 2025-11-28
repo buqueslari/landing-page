@@ -7,7 +7,7 @@ export default function ScrollTop({ hasPaddingBottom = false }) {
   const [isButtonVisible] = useState(true);
 
   const handleScrollToTop = () => {
-    const telefone = "5547988922714";
+    const telefone = "5511958986326";
     let mensagem = "Olá! Estou interessado(a) nos produtos da sua loja. Poderia me dar mais informações? Obrigado!";
 
     const mensagemCodificada = encodeURIComponent(mensagem);
