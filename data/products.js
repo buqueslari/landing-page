@@ -1,13 +1,78 @@
 import { isabelaflores } from "./isabelaflores";
 
 export const products = [
-   {
+    {
+    "title": "Cesta Café da Manhã - Amo Você",
+    "price": 119.99,
+    "oldPrice": 199.99,
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwFrxLnpJlgt-qt5ZckbemyDI_cUsYqUKiMVdONMcS75y_4TiK6ZQKDcNgviEMm9gq4Ixsr0F2ITPkcpNvpsGyUlPouNAKde-ugdB-CM"
+    ],
+    "description": "",
+    "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Buquê de Tulipas Naturais",
+    "price": 119.99,
+    "oldPrice": 180.99,
+    "images": [
+      "https://cdn.awsli.com.br/800x800/686/686122/produto/212763586/buque-de-tulipas-xeooeh.jpg",
+      "https://cdn.awsli.com.br/800x800/686/686122/produto/212763586/buque-de-tulipas-xeooeh.jpg"
+    ],
+    "description": "",
+    "id": 245450040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+      {
+    "title": "Café da Manhã CASAL (caixote claro)",
+    "price": 159.00,
+    "oldPrice": 199.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/13-59b1d815da1f17cd8117508852278266-1024-1024.webp",
+    ],
+    "description": "",
+    "id": 245478950040714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+  {
     "title": "Cesta de Café para Uma Pessoa",
     "price": 119.99,
     "oldPrice": 205.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/Screenshot_15.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/alta-274-2-1.webp"
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-2.webp",
+      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-274-1.webp"
     ],
     "description": "",
     "id": 20040714,
@@ -19,7 +84,93 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+    {
+    "title": "Cesta especial para presente com arranjo de rosas, pelúcia e chocolates",
+    "price": 120.99,
+    "oldPrice": 179.99,
+    "images": [
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/10/IMG-20211018-WA0066.jpg",
+    ],
+    "description": "",
+    "id": 231200007114,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+     {
+    "title": "Arranjo com Girassóis – Presente Especial",
+    "price": 89.99,
+    "oldPrice": 119.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/lotus-presentes-buques-10-b7ba9b22d770c37a5317508013423220-1024-1024.webp",
+    ],
+    "description": "",
+    "id": 200400909714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Dia dos Namorados",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+    {
+    "title": "Caixa Cesta de Coração - Premium",
+    "price": 109.99,
+    "oldPrice": 200.99,
+    "images": [
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810",
+      "https://patipiva.com.br/cdn/shop/files/2822_CX_CESTA_CORACAO_VERMELHA_3.jpg?v=1748292784&width=810"
+    ],
+    "description": "",
+    "id": 20040112714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
+      "Buquês"
+    ]
+  },
+   {
+    "title": "Kit Presente Cesta - Premium ",
+    "price": 119.99,
+    "oldPrice": 205.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png",
+      "https://acdn-us.mitiendanube.com/stores/003/222/795/products/5125819d8ca8e0ce831f0f177648c574-8cceb6fdb0af99cbc717170239302872-640-0.png"
+    ],
+    "description": "",
+    "id": 2004075514,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -28,7 +179,7 @@ export const products = [
     "price": 129.99,
     "oldPrice": 200.19,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/1734672153_181a97f33de5d07fe6f9.webp.webp",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/imagens-novo-site-lotus-16856f478b6b71081817325477312895-1024-1024.webp",
     ],
     "description": "",
     "id": 60000714,
@@ -40,17 +191,17 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
   {
-    "title": "Kit De Presente para mãe Dia Das Mães Almofada Caneca Cartão – Sude",
+    "title": "Cesta café da manhã ou da tarde com Rosas",
     "price": 139.99,
     "oldPrice": 215.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/01ebc997e810f0307a06a79948cbe40c.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/597b290b2b4ed5894b26c9b357a859c1.webp"
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg",
+      "https://josifloresecestas.com.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-16.30.28.jpeg"
     ],
     "description": "",
     "id": 50000714,
@@ -62,17 +213,17 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
   {
-    "title": "Presente Dia das Mães com Flor e Chocolate",
-    "price": 75.99,
+    "title": "Cesta de Chocolates Variados com Pelúcia Grande",
+    "price": 120.99,
     "oldPrice": 150.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/Presente-Dia-das-Maes-com-Flor-e-Chocolate.jpeg.webp",
-      "https://mundodasflores.com/wp-content/uploads/2025/04/floricultura-joinville-rosa-chocolate1.jpeg.webp"
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/03/cesta-com-pelucia-G-e-chocolates-220trans-600x750.png",
+      "https://josifloresecestas.com.br/wp-content/uploads/2021/03/cesta-com-pelucia-G-e-chocolates-220trans-600x750.png"
     ],
     "description": "",
     "id": 300010714,
@@ -84,16 +235,16 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
   {
-    "title": "CESTA DIA DAS MÃES",
+    "title": "Cesta de Chocolates Variados com Pelúcia, Rosas e Balão",
     "price": 119.99,
     "oldPrice": 220.99,
     "images": [
-      "https://mundodasflores.com/wp-content/uploads/2025/04/design-sem-nome-2023-05-06t092710-0471-5a9a57b9d5322f4a3c16838075406295-1024-1024.webp",
+      "https://josifloresecestas.com.br/wp-content/uploads/2025/01/IMG-20250129-WA0106.jpg",
     ],
     "description": "",
     "id": 200007114,
@@ -105,7 +256,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -127,7 +278,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -149,7 +300,29 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
+      "Buquês",
+    ]
+  },
+    {
+    "title": "Buquê de Girassóis Noite Estrelada Van Gogh",
+    "price": 120.99,
+    "oldPrice": 200.99,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/trio-de-girassois-noite-estrelada-1c41c9df5063fae27c17379915989652-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/005/451/133/products/trio-de-girassois-noite-estrelada-1c41c9df5063fae27c17379915989652-1024-1024.webp"
+    ],
+    "description": "",
+    "id": 30003300714,
+    "shipping": false,
+    "isOnSale": false,
+    "inStock": true,
+    "tabFilterOptions": [
+      "Novidades",
+      "Promoção"
+    ],
+    "tabFilterOptions2": [
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -171,7 +344,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -193,7 +366,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -215,7 +388,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -236,7 +409,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês",
     ]
   },
@@ -258,7 +431,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -279,7 +452,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -300,7 +473,7 @@ export const products = [
       "Promoção"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
     ]
   },
   {
@@ -317,12 +490,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -340,12 +513,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -363,12 +536,12 @@ export const products = [
     "isOnSale": false,
     "inStock": true,
     "tabFilterOptions": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Promoção",
       "Buquês"
     ],
     "tabFilterOptions2": [
-      "Dia das Mães",
+      "Dia dos Namorados",
       "Buquês"
     ]
   },
@@ -377,7 +550,6 @@ export const products = [
     "price": 199.92999999999995,
     "oldPrice": 299.3107084307127,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54593-1.jpg"
     ],
     "description": "",
@@ -398,7 +570,6 @@ export const products = [
     "price": 188.92999999999998,
     "oldPrice": 287.07257868946664,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54592-1.jpg"
     ],
     "description": "",
@@ -419,7 +590,6 @@ export const products = [
     "price": 149.92999999999998,
     "oldPrice": 200.0200677465979,
     "images": [
-      "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-0.webp",
       "https://www.isabelaflores.com/media/catalog/product/a/l/alta-54591-1.jpg"
     ],
     "description": "",
@@ -436,7 +606,7 @@ export const products = [
     ]
   },
   {
-    "title": "Flor da Fortuna Laranja e Cesta com Ovo de Páscoa Sonho de Valsa e Bombons",
+    "title": "",
     "price": 99.93,
     "oldPrice": 198.40810187392108,
     "images": [
@@ -869,7 +1039,7 @@ export const products = [
     addToCart: "Adicionar Rápido",
     countdown: 1007500,
     inStock: true,
-    tabFilterOptions2: ["Promoção", "Dia das Mães"],
+    tabFilterOptions2: ["Novidades", "Promoção"],
     tabFilterOptions: ["Bebidas", "Promoção", "Presentes"],
     description: "Desfrute do melhor da cervejaria Paulistânia com o Kit Marco Zero, que inclui duas cervejas artesanais e uma taça especial. Ideal para apreciadores de cervejas que valorizam qualidade e sabor. Perfeito para presentear ou para momentos de degustação, o Kit Paulistânia Marco Zero proporciona uma experiência única e sofisticada no universo das cervejas artesanais.",
   },
@@ -1165,7 +1335,7 @@ export const presentes = [
     oldPrice: 169.0,
     isOnSale: false,
     inStock: true,
-    tabFilterOptions2: ["Promoção", "Dia das Mães"],
+    tabFilterOptions2: ["Novidades", "Promoção"],
     tabFilterOptions: ["Orquídeas", "Promoção"],
     description: "A Orquídea Phalaenopsis Pink é perfeita para adicionar beleza e elegância ao seu espaço. Com pétalas rosas delicadas e vibrantes, esta orquídea é ideal para decorações sofisticadas e como presente encantador para qualquer ocasião especial. Sua durabilidade e facilidade de cuidado fazem dela uma ótima opção tanto para iniciantes quanto para entusiastas de plantas.",
   },

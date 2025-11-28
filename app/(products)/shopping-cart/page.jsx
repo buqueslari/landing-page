@@ -8,8 +8,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Shopping Cart || Lari Buquês - Multipurpose React Nextjs eCommerce Template",
-  description: "Lari Buquês - Multipurpose React Nextjs eCommerce Template",
+  title: "Shopping Cart || Marcela Buquês - Multipurpose React Nextjs eCommerce Template",
+  description: "Marcela Buquês - Multipurpose React Nextjs eCommerce Template",
 };
 
 export default function page() {

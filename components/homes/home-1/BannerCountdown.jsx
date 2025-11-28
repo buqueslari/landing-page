@@ -23,7 +23,7 @@ export default function BannerCountdown() {
           </div>
           <div className="col-lg-2">
             <div className="banner-img">
-              <Image className="lazyload" data-src="/images/banner/img-countdown1.png" alt="banner" src="/images/banner/banner-1.jfif" width={607} height={655} />
+             
             </div>
           </div>
           <div className="col-lg-5">
